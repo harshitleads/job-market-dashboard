@@ -117,3 +117,11 @@ Entries are append-only. Never edit old entries.
 **Why:** CA payrolls (17K) vs unemployment (5%) on same chart was unreadable. require() broke in Next.js 16 client components. Salary ranges with from===to rendered zero-width bars. "Approval Rate" was misleading -- 97% is petition approval after lottery, not overall odds.
 **Rejected:** Keeping dual-axis for CA (unreadable scales). Graying out CA/Bay Area toggles (data exists, just needed correct chart type). Showing lottery odds (data not available from USCIS).
 
+
+### 2026-04-05
+
+### 2026-04-05 -- All dashboard bugs fixed and verified on production
+**Decision:** (1) Added mock data fallback for all CA/Bay Area FRED series so charts always render. Added AbortController timeout + User-Agent header to FRED fetch. Production now returns real FRED data for CAUR (5.7%), SANF806URN (4.0%). (2) Replaced Recharts BarChart with CSS-based bar chart for salary display -- 15 companies render correctly with $XK labels and filing counts. (3) Y-axis margins increased across all charts.
+**Why:** FRED API fetch was silently failing on Vercel serverless with no fallback for state series. Recharts Bar+Cell+LabelList combo had a rendering bug that prevented bars from appearing. CSS bars are more reliable and lightweight.
+**Rejected:** Keeping Recharts for salary chart (proven unreliable for horizontal bars with Cell components). Removing CA/Bay Area views entirely (data exists and now loads correctly).
+

@@ -37,8 +37,16 @@ export async function GET(request: NextRequest) {
       await setCached(cacheKey, data);
       result[id] = data;
     } catch (err) {
-      console.error(`Failed to fetch ${id}:`, err);
-      result[id] = MOCK_DATA[id] ?? [];
+      const errMsg = err instanceof Error ? err.message : String(err);
+      console.error(
+        `[FRED] Failed to fetch series ${id}: ${errMsg}`,
+        err instanceof Error ? err.stack : ""
+      );
+      const fallback = MOCK_DATA[id] ?? [];
+      console.warn(
+        `[FRED] Using ${fallback.length > 0 ? "mock" : "empty"} fallback for ${id}`
+      );
+      result[id] = fallback;
     }
   }
 

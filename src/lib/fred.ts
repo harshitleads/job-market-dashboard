@@ -21,21 +21,35 @@ export async function fetchSeries(
   url.searchParams.set("file_type", "json");
   url.searchParams.set("observation_start", startDate);
 
-  const res = await fetch(url.toString());
-  if (!res.ok) {
-    throw new Error(
-      `FRED API error for ${seriesId}: ${res.status} ${res.statusText}`
-    );
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10000);
+
+  try {
+    const res = await fetch(url.toString(), {
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "JobMarketPulse/1.0 (https://pulse.harshit.ai)",
+        Accept: "application/json",
+      },
+    });
+
+    if (!res.ok) {
+      throw new Error(
+        `FRED API error for ${seriesId}: ${res.status} ${res.statusText}`
+      );
+    }
+
+    const data = await res.json();
+    const observations: { date: string; value: string }[] =
+      data.observations ?? [];
+
+    return observations
+      .filter((obs) => obs.value !== ".")
+      .map((obs) => ({
+        date: obs.date,
+        value: parseFloat(obs.value),
+      }));
+  } finally {
+    clearTimeout(timeout);
   }
-
-  const data = await res.json();
-  const observations: { date: string; value: string }[] =
-    data.observations ?? [];
-
-  return observations
-    .filter((obs) => obs.value !== ".")
-    .map((obs) => ({
-      date: obs.date,
-      value: parseFloat(obs.value),
-    }));
 }
