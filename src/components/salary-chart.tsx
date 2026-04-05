@@ -9,6 +9,7 @@ import {
   CartesianGrid,
   Tooltip,
   Cell,
+  LabelList,
 } from "recharts";
 import { COLORS } from "@/lib/constants";
 import type { PMSalary } from "@/lib/h1b-data";
@@ -21,7 +22,7 @@ interface PayloadEntry {
   name: string;
   value: number;
   color: string;
-  payload: { employer: string; salaryFrom: number; salaryTo: number; range: number };
+  payload: { employer: string; avgSalary: number; count: number };
 }
 
 function SalaryTooltip({
@@ -37,60 +38,81 @@ function SalaryTooltip({
     <div className="rounded-lg border border-[#1e293b] bg-[#0a0f1e] px-4 py-3 shadow-xl">
       <p className="text-sm font-medium text-[#e2e8f0]">{data.employer}</p>
       <p className="mt-1 font-mono text-xs text-[#94a3b8]">
-        ${(data.salaryFrom / 1000).toFixed(0)}K - $
-        {(data.salaryTo / 1000).toFixed(0)}K
+        Avg PM Salary: ${(data.avgSalary / 1000).toFixed(0)}K
+      </p>
+      <p className="mt-0.5 font-mono text-xs text-[#94a3b8]">
+        {data.count} filing{data.count !== 1 ? "s" : ""}
       </p>
     </div>
   );
 }
 
+function normalizeEmployerName(name: string): string {
+  return name
+    .replace(/[.,]+$/g, "")
+    .replace(/\s+(LLC|INC|CORP|CORPORATION|Inc|Corp)\.?$/i, "")
+    .trim();
+}
+
 export function SalaryChart({ salaries }: SalaryChartProps) {
-  // Aggregate by employer: take the top 15 by count, show avg range
+  // Group by normalized employer name, average salary
   const employerMap = new Map<
     string,
-    { count: number; totalFrom: number; totalTo: number }
+    { displayName: string; totalSalary: number; count: number }
   >();
 
   for (const s of salaries) {
-    const existing = employerMap.get(s.employer) ?? {
+    const key = normalizeEmployerName(s.employer).toUpperCase();
+    const existing = employerMap.get(key) ?? {
+      displayName: normalizeEmployerName(s.employer),
+      totalSalary: 0,
       count: 0,
-      totalFrom: 0,
-      totalTo: 0,
     };
     existing.count++;
-    existing.totalFrom += s.salaryFrom;
-    existing.totalTo += s.salaryTo;
-    employerMap.set(s.employer, existing);
+    existing.totalSalary += s.salaryFrom;
+    employerMap.set(key, existing);
   }
 
-  const chartData = Array.from(employerMap.entries())
-    .sort(([, a], [, b]) => b.count - a.count)
-    .slice(0, 15)
-    .map(([employer, data]) => ({
-      employer: employer.replace(/ (LLC|INC|CORP|CORPORATION)$/i, ""),
-      salaryFrom: Math.round(data.totalFrom / data.count / 1000),
-      salaryTo: Math.round(data.totalTo / data.count / 1000),
-      range: Math.round(
-        (data.totalTo / data.count - data.totalFrom / data.count) / 1000
-      ),
+  const chartData = Array.from(employerMap.values())
+    .map((e) => ({
+      employer: e.displayName,
+      avgSalary: Math.round(e.totalSalary / e.count),
+      avgSalaryK: Math.round(e.totalSalary / e.count / 1000),
+      count: e.count,
     }))
-    .sort((a, b) => b.salaryTo - a.salaryTo);
+    .sort((a, b) => b.avgSalary - a.avgSalary)
+    .slice(0, 15);
+
+  if (chartData.length === 0) {
+    return (
+      <p className="py-8 text-center text-sm text-[#94a3b8]">
+        No PM salary data available for this region.
+      </p>
+    );
+  }
 
   return (
-    <ResponsiveContainer width="100%" height={Math.max(400, chartData.length * 36)}>
+    <ResponsiveContainer
+      width="100%"
+      height={Math.max(400, chartData.length * 38)}
+    >
       <BarChart
         data={chartData}
         layout="vertical"
-        margin={{ top: 10, right: 30, left: 120, bottom: 0 }}
+        margin={{ top: 10, right: 60, left: 10, bottom: 0 }}
       >
-        <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" horizontal={false} />
+        <CartesianGrid
+          strokeDasharray="3 3"
+          stroke="#1e293b"
+          horizontal={false}
+        />
         <XAxis
           type="number"
           stroke="#94a3b8"
           fontSize={12}
           tickLine={false}
-          tickFormatter={(v: number) => `$${v}K`}
-          domain={[0, "dataMax + 20"]}
+          tickFormatter={(v: number) => `$${(v / 1000).toFixed(0)}K`}
+          domain={[0, "dataMax + 20000"]}
         />
         <YAxis
           type="category"
@@ -98,14 +120,19 @@ export function SalaryChart({ salaries }: SalaryChartProps) {
           stroke="#94a3b8"
           fontSize={11}
           tickLine={false}
-          width={110}
+          width={140}
         />
         <Tooltip content={<SalaryTooltip />} />
-        <Bar dataKey="salaryFrom" stackId="salary" fill="transparent" />
-        <Bar dataKey="range" stackId="salary" radius={[0, 4, 4, 0]}>
+        <Bar dataKey="avgSalary" radius={[0, 4, 4, 0]}>
           {chartData.map((_, i) => (
             <Cell key={i} fill={COLORS.accent} fillOpacity={0.8} />
           ))}
+          <LabelList
+            dataKey="avgSalaryK"
+            position="right"
+            formatter={(v) => `$${v}K`}
+            style={{ fill: "#94a3b8", fontSize: 11, fontFamily: "monospace" }}
+          />
         </Bar>
       </BarChart>
     </ResponsiveContainer>

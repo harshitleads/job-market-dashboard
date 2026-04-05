@@ -56,7 +56,7 @@ export function FlowChart({ hires, quits, layoffs }: FlowChartProps) {
 
   return (
     <ResponsiveContainer width="100%" height={400}>
-      <AreaChart data={data} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+      <AreaChart data={data} margin={{ top: 10, right: 20, left: 10, bottom: 0 }}>
         <defs>
           <linearGradient id="hiresGrad" x1="0" y1="0" x2="0" y2="1">
             <stop offset="5%" stopColor={COLORS.accent} stopOpacity={0.3} />
@@ -84,6 +84,7 @@ export function FlowChart({ hires, quits, layoffs }: FlowChartProps) {
           stroke="#94a3b8"
           fontSize={12}
           tickLine={false}
+          width={55}
           tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}K`}
         />
         <Tooltip content={<CustomTooltip />} />

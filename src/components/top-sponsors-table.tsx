@@ -71,7 +71,7 @@ export function TopSponsorsTable({ sponsors }: TopSponsorsTableProps) {
                 className="cursor-pointer px-3 py-3 font-medium hover:text-[#e2e8f0]"
                 onClick={() => handleSort("approvalRate")}
               >
-                Approval Rate <SortIcon col="approvalRate" />
+                Petition Approval <SortIcon col="approvalRate" />
               </th>
             </tr>
           </thead>
@@ -116,6 +116,11 @@ export function TopSponsorsTable({ sponsors }: TopSponsorsTableProps) {
           {showAll ? "Show less" : `Show all ${sponsors.length} sponsors`}
         </button>
       )}
+      <p className="mt-4 text-xs text-[#94a3b8]">
+        Petition approval rate reflects USCIS decisions after lottery selection.
+        It does not include lottery odds (~25-30% selection rate in recent
+        years).
+      </p>
     </div>
   );
 }

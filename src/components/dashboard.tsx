@@ -2,6 +2,15 @@
 
 import { useEffect, useState } from "react";
 import {
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+} from "recharts";
+import {
   Briefcase,
   TrendingDown,
   TrendingUp,
@@ -18,6 +27,7 @@ import { SectionTitle } from "./section-title";
 import { EventPill } from "./event-pill";
 import { SourcesFooter } from "./sources-footer";
 import { ChartSkeleton } from "./chart-skeleton";
+import { CustomTooltip } from "./custom-tooltip";
 import { GeographyToggle, type Geography } from "./geography-toggle";
 import { EVENTS, COLORS, GEOGRAPHY_SERIES } from "@/lib/constants";
 import type { FredObservation } from "@/lib/fred";
@@ -59,6 +69,7 @@ export function Dashboard() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    setData(null);
     setLoading(true);
     setError(null);
     const geoSeries = GEOGRAPHY_SERIES[geography];
@@ -274,13 +285,10 @@ function CaliforniaView({
           {isLoading ? (
             <ChartSkeleton />
           ) : (
-            <HeroChart
-              jobOpenings={payrolls}
-              unemployment={unemp}
-              leftLabel="Payrolls (thousands)"
-              rightLabel="Unemployment %"
-              leftName="Nonfarm Payrolls"
-              rightName="Unemployment Rate"
+            <UnemploymentLineChart
+              data={unemp}
+              label="CA Unemployment Rate"
+              color={COLORS.blue}
             />
           )}
         </ChartCard>
@@ -326,7 +334,11 @@ function BayAreaView({
           {isLoading ? (
             <ChartSkeleton />
           ) : (
-            <SimpleLineChart data={unemp} label="Unemployment Rate" color={COLORS.blue} />
+            <UnemploymentLineChart
+              data={unemp}
+              label="SF Metro Unemployment Rate"
+              color={COLORS.blue}
+            />
           )}
         </ChartCard>
       </section>
@@ -339,7 +351,7 @@ function BayAreaView({
   );
 }
 
-function SimpleLineChart({
+function UnemploymentLineChart({
   data,
   label,
   color,
@@ -348,18 +360,6 @@ function SimpleLineChart({
   label: string;
   color: string;
 }) {
-  // Lazy import to keep this in the same bundle
-  const {
-    ResponsiveContainer,
-    LineChart,
-    Line,
-    XAxis,
-    YAxis,
-    CartesianGrid,
-    Tooltip,
-  } = require("recharts");
-  const { CustomTooltip } = require("./custom-tooltip");
-
   const formatDate = (date: string) =>
     new Date(date).toLocaleDateString("en-US", {
       month: "short",
@@ -368,7 +368,10 @@ function SimpleLineChart({
 
   return (
     <ResponsiveContainer width="100%" height={400}>
-      <LineChart data={data} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+      <LineChart
+        data={data}
+        margin={{ top: 10, right: 20, left: 10, bottom: 0 }}
+      >
         <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
         <XAxis
           dataKey="date"
@@ -383,6 +386,7 @@ function SimpleLineChart({
           fontSize={12}
           tickLine={false}
           tickFormatter={(v: number) => `${v}%`}
+          width={50}
         />
         <Tooltip content={<CustomTooltip />} />
         <Line

@@ -72,7 +72,7 @@ export function ApprovalTrendChart({ trends }: ApprovalTrendChartProps) {
     <ResponsiveContainer width="100%" height={400}>
       <ComposedChart
         data={chartData}
-        margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
+        margin={{ top: 10, right: 20, left: 10, bottom: 0 }}
       >
         <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
         <XAxis
@@ -86,6 +86,7 @@ export function ApprovalTrendChart({ trends }: ApprovalTrendChartProps) {
           stroke="#94a3b8"
           fontSize={12}
           tickLine={false}
+          width={55}
           tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}K`}
         />
         <YAxis
@@ -94,6 +95,7 @@ export function ApprovalTrendChart({ trends }: ApprovalTrendChartProps) {
           stroke="#94a3b8"
           fontSize={12}
           tickLine={false}
+          width={50}
           tickFormatter={(v: number) => `${v}%`}
           domain={[80, 100]}
         />

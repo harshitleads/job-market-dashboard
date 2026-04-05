@@ -61,7 +61,7 @@ export function HeroChart({
 
   return (
     <ResponsiveContainer width="100%" height={400}>
-      <LineChart data={data} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+      <LineChart data={data} margin={{ top: 10, right: 20, left: 10, bottom: 0 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
         <XAxis
           dataKey="date"
@@ -76,15 +76,8 @@ export function HeroChart({
           stroke="#94a3b8"
           fontSize={12}
           tickLine={false}
+          width={55}
           tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}K`}
-          label={{
-            value: leftLabel,
-            angle: -90,
-            position: "insideLeft",
-            fill: "#94a3b8",
-            fontSize: 11,
-            dx: -5,
-          }}
         />
         <YAxis
           yAxisId="right"
@@ -92,15 +85,8 @@ export function HeroChart({
           stroke="#94a3b8"
           fontSize={12}
           tickLine={false}
+          width={50}
           tickFormatter={(v: number) => `${v}%`}
-          label={{
-            value: rightLabel,
-            angle: 90,
-            position: "insideRight",
-            fill: "#94a3b8",
-            fontSize: 11,
-            dx: 5,
-          }}
         />
         <Tooltip content={<CustomTooltip />} />
         <Legend

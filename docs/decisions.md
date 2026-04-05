@@ -96,3 +96,24 @@ Entries are append-only. Never edit old entries.
 **Why:** Social sharing previews on LinkedIn/Twitter need proper OG tags. Favicon gives brand identity in browser tabs.
 **Rejected:** Using a generic Next.js favicon (no brand identity). Skipping twitter card (misses Twitter/X share previews).
 
+
+### 2026-04-05
+
+### 2026-04-05 -- Salary chart rewrite: single bar per employer
+**Decision:** Rewrote salary-chart.tsx to show average PM salary per employer as a single horizontal bar, not a min-max range. Normalized employer names to merge duplicates. Top 15 by highest average.
+**Why:** Most LCA entries have salaryFrom === salaryTo (same value), rendering zero-width range bars. Single bar with average salary is clearer and more useful.
+**Rejected:** Keeping range bars (invisible for most entries). Showing individual filing rows (too granular, clutters chart).
+
+### 2026-04-05 -- CA/Bay Area race condition fix
+**Decision:** Fixed dashboard.tsx to reset data state to null when geography changes, triggering loading state during the transition. Issue was old US-keyed data persisting while CA view tried to read CA-keyed fields.
+**Why:** Race condition caused 0.0% values. Not a data availability issue -- FRED returns valid data for CAUR, CANA, CAICLAIMS, SANF806URN.
+**Rejected:** Graying out toggles (data actually exists, just wasn't loading correctly).
+
+
+### 2026-04-05
+
+### 2026-04-05 -- CA/Bay Area charts fixed, salary chart rewrite, petition approval rename
+**Decision:** (1) Replaced dual-axis HeroChart for CA with dedicated UnemploymentLineChart. CA payrolls are KPI-only. (2) Removed require() in SimpleLineChart, replaced with standard ES imports. (3) Rewrote salary chart as single-bar-per-employer with normalized names. (4) Renamed "Approval Rate" to "Petition Approval" with footnote explaining lottery vs petition distinction. (5) Fixed Y-axis margins across all charts.
+**Why:** CA payrolls (17K) vs unemployment (5%) on same chart was unreadable. require() broke in Next.js 16 client components. Salary ranges with from===to rendered zero-width bars. "Approval Rate" was misleading -- 97% is petition approval after lottery, not overall odds.
+**Rejected:** Keeping dual-axis for CA (unreadable scales). Graying out CA/Bay Area toggles (data exists, just needed correct chart type). Showing lottery odds (data not available from USCIS).
+
