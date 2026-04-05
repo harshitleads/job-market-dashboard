@@ -52,9 +52,15 @@ export function H1bDashboard() {
 
   return (
     <>
-      {/* Geography Toggle */}
-      <div className="mb-6">
+      {/* Geography Toggle + Data freshness */}
+      <div className="mb-6 flex flex-wrap items-center gap-3">
         <GeographyToggle active={geography} onChange={setGeography} />
+        <div className="flex flex-1 items-center justify-end">
+          <span className="text-xs text-[#94a3b8]">
+            H-1B data through Dec 2024 (DOL quarterly release) · FRED data
+            refreshes daily
+          </span>
+        </div>
       </div>
 
       {/* Company Lookup */}

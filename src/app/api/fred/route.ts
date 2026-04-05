@@ -14,6 +14,7 @@ export async function GET(request: NextRequest) {
   }
 
   const seriesIds = seriesParam.split(",").map((s) => s.trim());
+  const bustCache = request.nextUrl.searchParams.get("bust") === "true";
   const result: Record<string, FredObservation[]> = {};
 
   const apiKey = process.env.FRED_API_KEY;
@@ -25,16 +26,18 @@ export async function GET(request: NextRequest) {
       continue;
     }
 
-    const cacheKey = `fred_${id}`;
-    const cached = await getCached<FredObservation[]>(cacheKey);
-    if (cached) {
-      result[id] = cached;
-      continue;
+    if (!bustCache) {
+      const cacheKey = `fred_${id}`;
+      const cached = await getCached<FredObservation[]>(cacheKey);
+      if (cached) {
+        result[id] = cached;
+        continue;
+      }
     }
 
     try {
       const data = await fetchSeries(id);
-      await setCached(cacheKey, data);
+      await setCached(`fred_${id}`, data);
       result[id] = data;
     } catch (err) {
       const errMsg = err instanceof Error ? err.message : String(err);

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import {
   ResponsiveContainer,
   LineChart,
@@ -18,6 +18,7 @@ import {
   DoorOpen,
   FileText,
   BarChart3,
+  RefreshCw,
 } from "lucide-react";
 import { KpiCard } from "./kpi-card";
 import { HeroChart } from "./hero-chart";
@@ -36,6 +37,20 @@ type SeriesData = Record<string, FredObservation[]>;
 
 function getLatest(data: FredObservation[]): number {
   return data.length > 0 ? data[data.length - 1].value : 0;
+}
+
+function getLatestDate(data: SeriesData): string | null {
+  for (const key of Object.keys(data)) {
+    const arr = data[key];
+    if (arr && arr.length > 0) {
+      const last = arr[arr.length - 1].date;
+      return new Date(last).toLocaleDateString("en-US", {
+        month: "short",
+        year: "numeric",
+      });
+    }
+  }
+  return null;
 }
 
 function getDelta(data: FredObservation[], monthsBack = 12): string {
@@ -67,24 +82,47 @@ export function Dashboard() {
   const [data, setData] = useState<SeriesData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
+  const [showUpdated, setShowUpdated] = useState(false);
+
+  const fetchData = useCallback(
+    (bust = false) => {
+      if (!bust) {
+        setData(null);
+      }
+      setLoading(true);
+      setError(null);
+      const geoSeries = GEOGRAPHY_SERIES[geography];
+      const seriesIds = Object.values(geoSeries).join(",");
+      const bustParam = bust ? "&bust=true" : "";
+      fetch(`/api/fred?series=${seriesIds}${bustParam}`)
+        .then((res) => res.json())
+        .then((json) => {
+          setData(json);
+          setLoading(false);
+          if (bust) {
+            setRefreshing(false);
+            setShowUpdated(true);
+            setTimeout(() => setShowUpdated(false), 2000);
+          }
+        })
+        .catch((err) => {
+          setError(err.message);
+          setLoading(false);
+          setRefreshing(false);
+        });
+    },
+    [geography]
+  );
 
   useEffect(() => {
-    setData(null);
-    setLoading(true);
-    setError(null);
-    const geoSeries = GEOGRAPHY_SERIES[geography];
-    const seriesIds = Object.values(geoSeries).join(",");
-    fetch(`/api/fred?series=${seriesIds}`)
-      .then((res) => res.json())
-      .then((json) => {
-        setData(json);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, [geography]);
+    fetchData(false);
+  }, [fetchData]);
+
+  const handleRefresh = () => {
+    setRefreshing(true);
+    fetchData(true);
+  };
 
   if (error) {
     return (
@@ -97,12 +135,31 @@ export function Dashboard() {
   }
 
   const isLoading = loading || !data;
+  const dataAsOf = data ? getLatestDate(data) : null;
 
   return (
     <>
-      {/* Geography Toggle */}
-      <div className="mb-6">
+      {/* Geography Toggle + Refresh + Data timestamp */}
+      <div className="mb-6 flex flex-wrap items-center gap-3">
         <GeographyToggle active={geography} onChange={setGeography} />
+        <div className="flex flex-1 items-center justify-end gap-3">
+          {dataAsOf && (
+            <span className="text-xs text-[#94a3b8]">
+              Data as of {dataAsOf}
+            </span>
+          )}
+          <button
+            onClick={handleRefresh}
+            disabled={refreshing || isLoading}
+            className="inline-flex items-center gap-1.5 rounded-lg border border-[#1e293b] px-3 py-1.5 text-xs text-[#94a3b8] transition-colors hover:border-[#00c896] hover:text-[#e2e8f0] disabled:opacity-50"
+          >
+            <RefreshCw
+              size={14}
+              className={refreshing ? "animate-spin" : ""}
+            />
+            {showUpdated ? "Updated" : "Fetch Latest"}
+          </button>
+        </div>
       </div>
 
       {geography === "us" && <USView data={data} isLoading={isLoading} />}
