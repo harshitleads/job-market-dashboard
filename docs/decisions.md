@@ -125,3 +125,11 @@ Entries are append-only. Never edit old entries.
 **Why:** FRED API fetch was silently failing on Vercel serverless with no fallback for state series. Recharts Bar+Cell+LabelList combo had a rendering bug that prevented bars from appearing. CSS bars are more reliable and lightweight.
 **Rejected:** Keeping Recharts for salary chart (proven unreliable for horizontal bars with Cell components). Removing CA/Bay Area views entirely (data exists and now loads correctly).
 
+
+### 2026-04-05
+
+### 2026-04-05 -- Salary chart sort toggle and name cleanup
+**Decision:** Added "By Filings" / "By Salary" sort toggle to PM Salary Ranges chart. Default is By Filings (min 5 filings), By Salary requires min 2 filings. Cleaned all employer display names (trailing commas, periods, common suffixes). Added data period subtitle "FY2023-FY2024 (Oct 2022 - Sep 2024)".
+**Why:** Previous sort by highest salary surfaced obscure companies with 1 outlier filing. Sorting by filings shows companies that actually hire PMs at scale (Amazon, Google, Meta, ByteDance). Sort toggle lets users explore both views. Name cleanup removes artifacts from LCA data normalization.
+**Rejected:** Removing salary sort entirely (users may want to see highest-paying companies). Showing all companies regardless of filing count (1-filing companies aren't meaningful signal).
+
