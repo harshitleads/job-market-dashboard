@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+body {
+  background: #0a0f1e;
+  color: #e2e8f0;
+}
+
+.glass-card {
+  background: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Recharts overrides for dark theme */
+.recharts-legend-item-text {
+  color: #94a3b8 !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #94a3b8;
+}

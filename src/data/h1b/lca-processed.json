@@ -1,0 +1,2328 @@
+{
+  "topSponsors": [
+    {
+      "employer": "AMAZON.COM SERVICES LLC",
+      "totalFilings": 9323,
+      "pmFilings": 1159,
+      "avgSalary": 153520,
+      "state": "NY"
+    },
+    {
+      "employer": "COGNIZANT TECHNOLOGY SOLUTIONS US CORP",
+      "totalFilings": 8033,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "OH"
+    },
+    {
+      "employer": "Microsoft Corporation",
+      "totalFilings": 7323,
+      "pmFilings": 240,
+      "avgSalary": 164189,
+      "state": "CA"
+    },
+    {
+      "employer": "Ernst & Young U.S. LLP",
+      "totalFilings": 4334,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "MI"
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "totalFilings": 4288,
+      "pmFilings": 220,
+      "avgSalary": 218414,
+      "state": "WA"
+    },
+    {
+      "employer": "Google LLC",
+      "totalFilings": 4280,
+      "pmFilings": 439,
+      "avgSalary": 185899,
+      "state": "CA"
+    },
+    {
+      "employer": "Tata Consultancy Services Limited",
+      "totalFilings": 4264,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "PA"
+    },
+    {
+      "employer": "INFOSYS LIMITED",
+      "totalFilings": 3750,
+      "pmFilings": 5,
+      "avgSalary": 109125,
+      "state": "TX"
+    },
+    {
+      "employer": "Apple Inc.",
+      "totalFilings": 3394,
+      "pmFilings": 75,
+      "avgSalary": 165479,
+      "state": "CA"
+    },
+    {
+      "employer": "WAL-MART ASSOCIATES, INC.",
+      "totalFilings": 2777,
+      "pmFilings": 195,
+      "avgSalary": 157404,
+      "state": "AR"
+    },
+    {
+      "employer": "Amazon Web Services, Inc.",
+      "totalFilings": 2486,
+      "pmFilings": 179,
+      "avgSalary": 154136,
+      "state": "NC"
+    },
+    {
+      "employer": "Accenture LLP",
+      "totalFilings": 2444,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "IL"
+    },
+    {
+      "employer": "HCL AMERICA INC",
+      "totalFilings": 2291,
+      "pmFilings": 2,
+      "avgSalary": 118418,
+      "state": "NC"
+    },
+    {
+      "employer": "JPMorgan Chase & Co.",
+      "totalFilings": 2121,
+      "pmFilings": 53,
+      "avgSalary": 164258,
+      "state": "TX"
+    },
+    {
+      "employer": "CAPGEMINI AMERICA INC",
+      "totalFilings": 2080,
+      "pmFilings": 4,
+      "avgSalary": 142986,
+      "state": "FL"
+    },
+    {
+      "employer": "Deloitte Consulting LLP",
+      "totalFilings": 1983,
+      "pmFilings": 2,
+      "avgSalary": 190400,
+      "state": "CA"
+    },
+    {
+      "employer": "WIPRO LIMITED",
+      "totalFilings": 1855,
+      "pmFilings": 26,
+      "avgSalary": 110482,
+      "state": "CA"
+    },
+    {
+      "employer": "LTIMINDTREE LIMITED",
+      "totalFilings": 1726,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "NJ"
+    },
+    {
+      "employer": "IBM Corporation",
+      "totalFilings": 1632,
+      "pmFilings": 20,
+      "avgSalary": 162133,
+      "state": "GA"
+    },
+    {
+      "employer": "COMPUNNEL SOFTWARE GROUP, INC",
+      "totalFilings": 1403,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "IL"
+    },
+    {
+      "employer": "Intel Corporation",
+      "totalFilings": 1279,
+      "pmFilings": 33,
+      "avgSalary": 127280,
+      "state": "OR"
+    },
+    {
+      "employer": "Tesla, Inc.",
+      "totalFilings": 1276,
+      "pmFilings": 60,
+      "avgSalary": 155737,
+      "state": "CA"
+    },
+    {
+      "employer": "AMAZON DEVELOPMENT CENTER U.S., INC.",
+      "totalFilings": 1256,
+      "pmFilings": 83,
+      "avgSalary": 162007,
+      "state": "NY"
+    },
+    {
+      "employer": "Salesforce, Inc.",
+      "totalFilings": 1238,
+      "pmFilings": 26,
+      "avgSalary": 192255,
+      "state": "TX"
+    },
+    {
+      "employer": "Fidelity Technology Group, LLC",
+      "totalFilings": 1141,
+      "pmFilings": 1,
+      "avgSalary": 117832,
+      "state": "UT"
+    },
+    {
+      "employer": "Deloitte & Touche LLP",
+      "totalFilings": 971,
+      "pmFilings": 6,
+      "avgSalary": 91589,
+      "state": "WA"
+    },
+    {
+      "employer": "TECH MAHINDRA (AMERICAS), INC",
+      "totalFilings": 940,
+      "pmFilings": 19,
+      "avgSalary": 150801,
+      "state": "TN"
+    },
+    {
+      "employer": "Mphasis Corporation",
+      "totalFilings": 920,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "TX"
+    },
+    {
+      "employer": "Qualcomm Technologies, Inc.",
+      "totalFilings": 898,
+      "pmFilings": 20,
+      "avgSalary": 153302,
+      "state": "CA"
+    },
+    {
+      "employer": "Citibank, N.A.",
+      "totalFilings": 859,
+      "pmFilings": 4,
+      "avgSalary": 178146,
+      "state": "TX"
+    },
+    {
+      "employer": "NVIDIA Corporation",
+      "totalFilings": 850,
+      "pmFilings": 59,
+      "avgSalary": 195808,
+      "state": "CA"
+    },
+    {
+      "employer": "Cisco Systems, Inc.",
+      "totalFilings": 774,
+      "pmFilings": 48,
+      "avgSalary": 150535,
+      "state": "CA"
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "totalFilings": 737,
+      "pmFilings": 76,
+      "avgSalary": 235408,
+      "state": "WA"
+    },
+    {
+      "employer": "Oracle America, Inc.",
+      "totalFilings": 730,
+      "pmFilings": 66,
+      "avgSalary": 153053,
+      "state": "CO"
+    },
+    {
+      "employer": "LINKEDIN CORPORATION",
+      "totalFilings": 679,
+      "pmFilings": 31,
+      "avgSalary": 167751,
+      "state": "CA"
+    },
+    {
+      "employer": "American Express Travel Related Services Company, Inc.",
+      "totalFilings": 675,
+      "pmFilings": 17,
+      "avgSalary": 151065,
+      "state": "AZ"
+    },
+    {
+      "employer": "FORD MOTOR COMPANY",
+      "totalFilings": 646,
+      "pmFilings": 50,
+      "avgSalary": 128576,
+      "state": "MI"
+    },
+    {
+      "employer": "UBER TECHNOLOGIES, INC.",
+      "totalFilings": 636,
+      "pmFilings": 41,
+      "avgSalary": 178902,
+      "state": "CA"
+    },
+    {
+      "employer": "PRICEWATERHOUSECOOPERS ADVISORY SERVICES LLC",
+      "totalFilings": 620,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "MA"
+    },
+    {
+      "employer": "PayPal, Inc.",
+      "totalFilings": 582,
+      "pmFilings": 49,
+      "avgSalary": 182576,
+      "state": "NY"
+    },
+    {
+      "employer": "Amazon Data Services, Inc",
+      "totalFilings": 582,
+      "pmFilings": 101,
+      "avgSalary": 150354,
+      "state": "VA"
+    },
+    {
+      "employer": "KFORCE INC.",
+      "totalFilings": 536,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "FL"
+    },
+    {
+      "employer": "Deloitte Tax LLP",
+      "totalFilings": 519,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "TX"
+    },
+    {
+      "employer": "CGI Technologies and Solutions Inc.",
+      "totalFilings": 512,
+      "pmFilings": 1,
+      "avgSalary": 105000,
+      "state": "PA"
+    },
+    {
+      "employer": "GOLDMAN SACHS & CO. LLC",
+      "totalFilings": 504,
+      "pmFilings": 1,
+      "avgSalary": 190000,
+      "state": "NY"
+    },
+    {
+      "employer": "UST GLOBAL INC",
+      "totalFilings": 487,
+      "pmFilings": 6,
+      "avgSalary": 102672,
+      "state": "CA"
+    },
+    {
+      "employer": "ServiceNow, Inc.",
+      "totalFilings": 478,
+      "pmFilings": 45,
+      "avgSalary": 151653,
+      "state": "WA"
+    },
+    {
+      "employer": "VIRTUSA CORPORATION",
+      "totalFilings": 461,
+      "pmFilings": 3,
+      "avgSalary": 155000,
+      "state": "PA"
+    },
+    {
+      "employer": "Optum Services, Inc.",
+      "totalFilings": 451,
+      "pmFilings": 7,
+      "avgSalary": 113655,
+      "state": "TN"
+    },
+    {
+      "employer": "Advanced Micro Devices,  Inc.",
+      "totalFilings": 450,
+      "pmFilings": 49,
+      "avgSalary": 146360,
+      "state": "WA"
+    },
+    {
+      "employer": "AT&T SERVICES, INC.",
+      "totalFilings": 449,
+      "pmFilings": 22,
+      "avgSalary": 161919,
+      "state": "TX"
+    },
+    {
+      "employer": "Adobe Inc.",
+      "totalFilings": 444,
+      "pmFilings": 38,
+      "avgSalary": 192245,
+      "state": "CA"
+    },
+    {
+      "employer": "Wells Fargo Bank, N.A.",
+      "totalFilings": 440,
+      "pmFilings": 8,
+      "avgSalary": 130547,
+      "state": "NC"
+    },
+    {
+      "employer": "BANK OF AMERICA N.A.",
+      "totalFilings": 440,
+      "pmFilings": 9,
+      "avgSalary": 138787,
+      "state": "AZ"
+    },
+    {
+      "employer": "Elevance Health, Inc.",
+      "totalFilings": 429,
+      "pmFilings": 9,
+      "avgSalary": 134717,
+      "state": "CT"
+    },
+    {
+      "employer": "RANDSTAD DIGITAL, LLC",
+      "totalFilings": 428,
+      "pmFilings": 5,
+      "avgSalary": 126120,
+      "state": "TX"
+    },
+    {
+      "employer": "Intuit Inc.",
+      "totalFilings": 425,
+      "pmFilings": 60,
+      "avgSalary": 181148,
+      "state": "CA"
+    },
+    {
+      "employer": "Cummins Inc.",
+      "totalFilings": 424,
+      "pmFilings": 15,
+      "avgSalary": 93572,
+      "state": "MN"
+    },
+    {
+      "employer": "Mastech Digital Technologies, Inc.",
+      "totalFilings": 419,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "OH"
+    },
+    {
+      "employer": "U.S. Bank National Association",
+      "totalFilings": 418,
+      "pmFilings": 12,
+      "avgSalary": 129432,
+      "state": "OH"
+    },
+    {
+      "employer": "Capital One Services, LLC",
+      "totalFilings": 416,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "VA"
+    },
+    {
+      "employer": "Hexaware Technologies, Inc.",
+      "totalFilings": 410,
+      "pmFilings": 3,
+      "avgSalary": 125708,
+      "state": "GA"
+    },
+    {
+      "employer": "Morgan Stanley Services Group, Inc.",
+      "totalFilings": 404,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "GA"
+    },
+    {
+      "employer": "TikTok Inc.",
+      "totalFilings": 397,
+      "pmFilings": 42,
+      "avgSalary": 223260,
+      "state": "CA"
+    },
+    {
+      "employer": "L&T TECHNOLOGY SERVICES LIMITED",
+      "totalFilings": 387,
+      "pmFilings": 5,
+      "avgSalary": 115529,
+      "state": "OH"
+    },
+    {
+      "employer": "University of Michigan",
+      "totalFilings": 386,
+      "pmFilings": 1,
+      "avgSalary": 63000,
+      "state": "MI"
+    },
+    {
+      "employer": "FIS Management Services, LLC",
+      "totalFilings": 385,
+      "pmFilings": 6,
+      "avgSalary": 176053,
+      "state": "MA"
+    },
+    {
+      "employer": "Barclays Services LLC",
+      "totalFilings": 384,
+      "pmFilings": 7,
+      "avgSalary": 172181,
+      "state": "NJ"
+    },
+    {
+      "employer": "eBay Inc.",
+      "totalFilings": 378,
+      "pmFilings": 30,
+      "avgSalary": 201872,
+      "state": "NY"
+    },
+    {
+      "employer": "Comcast Cable Communications, LLC",
+      "totalFilings": 376,
+      "pmFilings": 20,
+      "avgSalary": 122010,
+      "state": "PA"
+    },
+    {
+      "employer": "ATOS SYNTEL INC",
+      "totalFilings": 373,
+      "pmFilings": 5,
+      "avgSalary": 108743,
+      "state": "IL"
+    },
+    {
+      "employer": "Charles Schwab & Company, Inc.",
+      "totalFilings": 371,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "TX"
+    },
+    {
+      "employer": "General Motors LLC",
+      "totalFilings": 370,
+      "pmFilings": 12,
+      "avgSalary": 137833,
+      "state": "MI"
+    },
+    {
+      "employer": "The Leland Stanford, Jr University",
+      "totalFilings": 368,
+      "pmFilings": 2,
+      "avgSalary": 97600,
+      "state": "CA"
+    },
+    {
+      "employer": "Palo Alto Networks, Inc.",
+      "totalFilings": 351,
+      "pmFilings": 19,
+      "avgSalary": 183900,
+      "state": "CA"
+    },
+    {
+      "employer": "Charter Communications, Inc",
+      "totalFilings": 346,
+      "pmFilings": 4,
+      "avgSalary": 117459,
+      "state": "CO"
+    },
+    {
+      "employer": "DoorDash, Inc.",
+      "totalFilings": 341,
+      "pmFilings": 9,
+      "avgSalary": 183460,
+      "state": "IL"
+    },
+    {
+      "employer": "DFS Corporate Services LLC",
+      "totalFilings": 336,
+      "pmFilings": 3,
+      "avgSalary": 143482,
+      "state": "IL"
+    },
+    {
+      "employer": "T-Mobile USA, Inc.",
+      "totalFilings": 335,
+      "pmFilings": 26,
+      "avgSalary": 156314,
+      "state": "WA"
+    },
+    {
+      "employer": "Synechron Inc.",
+      "totalFilings": 334,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "GA"
+    },
+    {
+      "employer": "Fiserv Solutions, LLC",
+      "totalFilings": 329,
+      "pmFilings": 2,
+      "avgSalary": 145600,
+      "state": "NJ"
+    },
+    {
+      "employer": "Rivian Automotive, LLC",
+      "totalFilings": 312,
+      "pmFilings": 13,
+      "avgSalary": 174436,
+      "state": "CA"
+    },
+    {
+      "employer": "Lucid USA, Inc.",
+      "totalFilings": 309,
+      "pmFilings": 15,
+      "avgSalary": 164283,
+      "state": "CA"
+    },
+    {
+      "employer": "HTC GLOBAL SERVICES INC.",
+      "totalFilings": 301,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "LA"
+    },
+    {
+      "employer": "Applied Materials, Inc.",
+      "totalFilings": 300,
+      "pmFilings": 2,
+      "avgSalary": 179746,
+      "state": "CA"
+    },
+    {
+      "employer": "Caremark LLC",
+      "totalFilings": 297,
+      "pmFilings": 1,
+      "avgSalary": 190000,
+      "state": "TX"
+    },
+    {
+      "employer": "McKinsey & Company, Inc. United States",
+      "totalFilings": 292,
+      "pmFilings": 9,
+      "avgSalary": 163078,
+      "state": "GA"
+    },
+    {
+      "employer": "Bloomberg L.P.",
+      "totalFilings": 289,
+      "pmFilings": 3,
+      "avgSalary": 119101,
+      "state": "NY"
+    },
+    {
+      "employer": "DocuSign, Inc.",
+      "totalFilings": 287,
+      "pmFilings": 35,
+      "avgSalary": 191950,
+      "state": "CA"
+    },
+    {
+      "employer": "CVS Pharmacy Inc.",
+      "totalFilings": 285,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "RI"
+    },
+    {
+      "employer": "KPMG LLP",
+      "totalFilings": 282,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "CA"
+    },
+    {
+      "employer": "Visa Technology & Operations LLC",
+      "totalFilings": 279,
+      "pmFilings": 11,
+      "avgSalary": 151672,
+      "state": "TX"
+    },
+    {
+      "employer": "Workday, Inc.",
+      "totalFilings": 277,
+      "pmFilings": 17,
+      "avgSalary": 149380,
+      "state": "OH"
+    },
+    {
+      "employer": "BlackRock Financial Management, Inc.",
+      "totalFilings": 275,
+      "pmFilings": 1,
+      "avgSalary": 102500,
+      "state": "DE"
+    },
+    {
+      "employer": "NTT DATA Americas, Inc.",
+      "totalFilings": 275,
+      "pmFilings": 2,
+      "avgSalary": 118654,
+      "state": "CA"
+    },
+    {
+      "employer": "ADP TECHNOLOGY SERVICES, INC.",
+      "totalFilings": 273,
+      "pmFilings": 7,
+      "avgSalary": 119918,
+      "state": "NJ"
+    },
+    {
+      "employer": "INNOVA SOLUTIONS, INC.",
+      "totalFilings": 268,
+      "pmFilings": 3,
+      "avgSalary": 110996,
+      "state": "GA"
+    },
+    {
+      "employer": "Mayo Clinic",
+      "totalFilings": 265,
+      "pmFilings": 3,
+      "avgSalary": 153007,
+      "state": "MN"
+    },
+    {
+      "employer": "People Tech Group, Inc.",
+      "totalFilings": 257,
+      "pmFilings": 3,
+      "avgSalary": 108098,
+      "state": "WA"
+    },
+    {
+      "employer": "ASML US, LLC",
+      "totalFilings": 254,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "AZ"
+    }
+  ],
+  "pmSalaries": [
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Search Ads Closed-loop Product Manager",
+      "salaryFrom": 564000,
+      "salaryTo": 564000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Jacobs Civil Consultants, Inc.",
+      "jobTitle": "SENIOR PROGRAM MANAGER",
+      "salaryFrom": 475000,
+      "salaryTo": 475000,
+      "city": "NEW YORK",
+      "year": 2023
+    },
+    {
+      "employer": "Jacobs Civil Consultants, Inc.",
+      "jobTitle": "SENIOR PROGRAM MANAGER",
+      "salaryFrom": 475000,
+      "salaryTo": 475000,
+      "city": "NEW YORK",
+      "year": 2023
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager, Digital Payment - Global Payment",
+      "salaryFrom": 444000,
+      "salaryTo": 444000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Logistics Product Manager Lead",
+      "salaryFrom": 384000,
+      "salaryTo": 384000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Senior Product Manager, User Growth",
+      "salaryFrom": 367200,
+      "salaryTo": 367200,
+      "city": "Bellevue",
+      "year": 2023
+    },
+    {
+      "employer": "FIS Management Services, LLC",
+      "jobTitle": "VP, Product Manager - Executive",
+      "salaryFrom": 365000,
+      "salaryTo": 365000,
+      "city": "Jacksonville",
+      "year": 2023
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Sr. Product Manager",
+      "salaryFrom": 362340,
+      "salaryTo": 362340,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Sr. Product Manager",
+      "salaryFrom": 358176,
+      "salaryTo": 358176,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "HashiCorp, Inc.",
+      "jobTitle": "Staff Product Manager",
+      "salaryFrom": 357000,
+      "salaryTo": 357000,
+      "city": "Union City",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 356475,
+      "salaryTo": 356475,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Roblox Corporation",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 350690,
+      "salaryTo": 350690,
+      "city": "San Mateo",
+      "year": 2023
+    },
+    {
+      "employer": "Omniva LLC",
+      "jobTitle": "Director, Technical Program Manager",
+      "salaryFrom": 350000,
+      "salaryTo": 350000,
+      "city": "Santa Clara",
+      "year": 2023
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 350000,
+      "salaryTo": 350000,
+      "city": "Austin",
+      "year": 2023
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager- Creative",
+      "salaryFrom": 350000,
+      "salaryTo": 350000,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "TikTok Shop - Logistics Product Manager",
+      "salaryFrom": 350000,
+      "salaryTo": 350000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Cresta Intelligence Inc.",
+      "jobTitle": "Product Manager (Head of Product)",
+      "salaryFrom": 350000,
+      "salaryTo": 350000,
+      "city": "Needham",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Senior Product Manager, Ad Signals",
+      "salaryFrom": 350000,
+      "salaryTo": 350000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Senior Product Manager, Ads Platform (Generative AI)",
+      "salaryFrom": 340000,
+      "salaryTo": 340000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Roblox Corporation",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 338170,
+      "salaryTo": 338170,
+      "city": "San Mateo",
+      "year": 2023
+    },
+    {
+      "employer": "Roblox Corporation",
+      "jobTitle": "Senior Product Manager, Productivity Platforms & Ecosystems",
+      "salaryFrom": 334000,
+      "salaryTo": 334000,
+      "city": "San Mateo",
+      "year": 2024
+    },
+    {
+      "employer": "Waymo LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 330000,
+      "salaryTo": 330000,
+      "city": "Mountain View",
+      "year": 2023
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Senior Product Manager, Client Incentive Product",
+      "salaryFrom": 330000,
+      "salaryTo": 330000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Senior Product Manager, Search Ads",
+      "salaryFrom": 330000,
+      "salaryTo": 330000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Technical Product Manager, Global E-Commerce",
+      "salaryFrom": 325000,
+      "salaryTo": 325000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 312040,
+      "salaryTo": 312040,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "TikTok eComm. Senior Product Manager - Customer Product",
+      "salaryFrom": 312000,
+      "salaryTo": 312000,
+      "city": "Mountain View",
+      "year": 2023
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "TikTok eCommerce Sr Product Manager - Operation Products",
+      "salaryFrom": 310000,
+      "salaryTo": 310000,
+      "city": "San Jose",
+      "year": 2023
+    },
+    {
+      "employer": "Matonee Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 307197,
+      "salaryTo": 307197,
+      "city": "Palo Alto",
+      "year": 2024
+    },
+    {
+      "employer": "Zenleads Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 305000,
+      "salaryTo": 305000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Matonee Inc. d/b/a Aptos Labs",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 304456,
+      "salaryTo": 304456,
+      "city": "Palo Alto",
+      "year": 2023
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 300000,
+      "salaryTo": 300000,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "Yohana LLC",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 300000,
+      "salaryTo": 300000,
+      "city": "Redmond",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 300000,
+      "salaryTo": 300000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager, TikTok Ads Manager",
+      "salaryFrom": 300000,
+      "salaryTo": 300000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "JPMorgan Chase & Co.",
+      "jobTitle": "Executive Director, Principal Technical Program Manager",
+      "salaryFrom": 300000,
+      "salaryTo": 300000,
+      "city": "Jersey City",
+      "year": 2024
+    },
+    {
+      "employer": "Hitachi Rail STS USA, Inc.",
+      "jobTitle": "Principal Program Manager",
+      "salaryFrom": 299936,
+      "salaryTo": 299936,
+      "city": "Pittsburgh",
+      "year": 2024
+    },
+    {
+      "employer": "Credit Karma LLC",
+      "jobTitle": "Staff Product Manager",
+      "salaryFrom": 296856,
+      "salaryTo": 296856,
+      "city": "Oakland",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 296502,
+      "salaryTo": 296502,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Netflix Global LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 294299,
+      "salaryTo": 294299,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Roku, Inc.",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 294299,
+      "salaryTo": 425000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Netflix, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 294299,
+      "salaryTo": 294299,
+      "city": "Los Angeles",
+      "year": 2024
+    },
+    {
+      "employer": "Zoom Video Communications, Inc.",
+      "jobTitle": "Lead Product Manager, Chat",
+      "salaryFrom": 294299,
+      "salaryTo": 294299,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "NVIDIA Corporation",
+      "jobTitle": "Senior Technical Program Manager - AI Research Systems",
+      "salaryFrom": 294299,
+      "salaryTo": 356500,
+      "city": "Santa Clara",
+      "year": 2024
+    },
+    {
+      "employer": "Netflix, Inc.",
+      "jobTitle": "PRODUCT MANAGER",
+      "salaryFrom": 294299,
+      "salaryTo": 294299,
+      "city": "Los Gatos",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 294000,
+      "salaryTo": 294000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Experienced Content Product Manager- TikTok Shop",
+      "salaryFrom": 294000,
+      "salaryTo": 294000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "CrowdStrike, Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 292464,
+      "salaryTo": 292464,
+      "city": "Sunnyvale",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 292000,
+      "salaryTo": 292000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "DanswerAI, Inc.",
+      "jobTitle": "Founding Product Manager",
+      "salaryFrom": 291200,
+      "salaryTo": 332800,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 290585,
+      "salaryTo": 290585,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "META PLATFORMS, INC.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 290000,
+      "salaryTo": 290000,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Gusto, Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 290000,
+      "salaryTo": 290000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 290000,
+      "salaryTo": 290000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Product Manager, Search",
+      "salaryFrom": 290000,
+      "salaryTo": 290000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Yelp Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 289435,
+      "salaryTo": 289435,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Group Outbound Product Manager",
+      "salaryFrom": 286000,
+      "salaryTo": 286000,
+      "city": "Sunnyvale",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 285180,
+      "salaryTo": 285180,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Veza Technologies, Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 285000,
+      "salaryTo": 285000,
+      "city": "Saratoga",
+      "year": 2024
+    },
+    {
+      "employer": "University of California, Berkeley",
+      "jobTitle": "Academic Program Manager",
+      "salaryFrom": 284760,
+      "salaryTo": 284760,
+      "city": "Berkeley",
+      "year": 2024
+    },
+    {
+      "employer": "Thumbtack, Inc.",
+      "jobTitle": "Director, Product Managers",
+      "salaryFrom": 284750,
+      "salaryTo": 385250,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Uber Technologies, Inc.",
+      "jobTitle": "Sr. Staff Technical Program Manager",
+      "salaryFrom": 284100,
+      "salaryTo": 284100,
+      "city": "Seattle",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 283816,
+      "salaryTo": 283816,
+      "city": "Huntington Beach",
+      "year": 2024
+    },
+    {
+      "employer": "Netflix, Inc.",
+      "jobTitle": "PRODUCT MANAGER",
+      "salaryFrom": 283442,
+      "salaryTo": 283442,
+      "city": "Los Gatos",
+      "year": 2023
+    },
+    {
+      "employer": "IBM Corporation",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 283431,
+      "salaryTo": 283431,
+      "city": "Chicago",
+      "year": 2024
+    },
+    {
+      "employer": "Yelp Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "Seattle",
+      "year": 2023
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Senior Product Manager, Creator Monetization",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager- Creative",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "Sunnyvale",
+      "year": 2024
+    },
+    {
+      "employer": "Yelp Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 280000,
+      "salaryTo": 280000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Operations Program Manager, Facebook Reality Labs",
+      "salaryFrom": 278855,
+      "salaryTo": 278855,
+      "city": "Sunnyvale",
+      "year": 2023
+    },
+    {
+      "employer": "Stripe, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 278387,
+      "salaryTo": 300000,
+      "city": "South San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Archer Aviation Operating Corp.",
+      "jobTitle": "Program Manager, CAE",
+      "salaryFrom": 278387,
+      "salaryTo": 330000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 278320,
+      "salaryTo": 278320,
+      "city": "Burlingame",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 276654,
+      "salaryTo": 276654,
+      "city": "Lynnwood",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 276654,
+      "salaryTo": 276654,
+      "city": "Lynnwood",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Analyst",
+      "salaryFrom": 275600,
+      "salaryTo": 275600,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Amazon Data Services, Inc",
+      "jobTitle": "Principal Technical Program Manager",
+      "salaryFrom": 275300,
+      "salaryTo": 275300,
+      "city": "Cupertino",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Virginia Mason Medical Center",
+      "jobTitle": "Research Program Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Seattle",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Whatnot Inc.",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Culver City",
+      "year": 2024
+    },
+    {
+      "employer": "JPMorgan Chase & Co.",
+      "jobTitle": "Vice President, Product Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Palo Alto",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Software Engineer - Product Development Search",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Senior Staff Product Analyst",
+      "salaryFrom": 275000,
+      "salaryTo": 275000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 274596,
+      "salaryTo": 274596,
+      "city": "Sunnyvale",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 274596,
+      "salaryTo": 274596,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 273915,
+      "salaryTo": 273915,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Waymo LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 273000,
+      "salaryTo": 273000,
+      "city": "Mountain View",
+      "year": 2023
+    },
+    {
+      "employer": "Microsoft Corporation",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 272900,
+      "salaryTo": 272900,
+      "city": "New York",
+      "year": 2023
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 270531,
+      "salaryTo": 270531,
+      "city": "Sunnyvale",
+      "year": 2023
+    },
+    {
+      "employer": "Roblox Corporation",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 270380,
+      "salaryTo": 270380,
+      "city": "San Mateo",
+      "year": 2024
+    },
+    {
+      "employer": "Sigma Computing, Inc.",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 270000,
+      "salaryTo": 270000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Product Manager – Data, TikTok Commerce",
+      "salaryFrom": 270000,
+      "salaryTo": 270000,
+      "city": "San Jose",
+      "year": 2023
+    },
+    {
+      "employer": "Genentech, Inc.",
+      "jobTitle": "Principal Medical Director Product Development",
+      "salaryFrom": 269900,
+      "salaryTo": 501300,
+      "city": "Boston",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "TikTok Shop - Strategy Product Manager Anti-Fraud Solutions",
+      "salaryFrom": 268000,
+      "salaryTo": 268000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 268000,
+      "salaryTo": 268000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 268000,
+      "salaryTo": 268000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "TikTok Shop - Senior Product Manager",
+      "salaryFrom": 266000,
+      "salaryTo": 266000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 265580,
+      "salaryTo": 265580,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 265000,
+      "salaryTo": 265000,
+      "city": "Seattle",
+      "year": 2023
+    },
+    {
+      "employer": "Ripple Labs, Inc.",
+      "jobTitle": "Senior Product Manager, Crypto Settlement",
+      "salaryFrom": 265000,
+      "salaryTo": 265000,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 265000,
+      "salaryTo": 265000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Senior Product Manager,  Transaction Platform",
+      "salaryFrom": 265000,
+      "salaryTo": 265000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 265000,
+      "salaryTo": 265000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Waymo LLC",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 265000,
+      "salaryTo": 265000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 262822,
+      "salaryTo": 262822,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 261980,
+      "salaryTo": 261980,
+      "city": "Redmond",
+      "year": 2024
+    },
+    {
+      "employer": "Salesforce, Inc.",
+      "jobTitle": "Senior Product Manager Financial Services",
+      "salaryFrom": 260384,
+      "salaryTo": 260384,
+      "city": "Braintree",
+      "year": 2024
+    },
+    {
+      "employer": "Salesforce, Inc.",
+      "jobTitle": "Senior Product Manager Financial Services",
+      "salaryFrom": 260384,
+      "salaryTo": 260384,
+      "city": "Braintree",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Privacy Program Manager, PDPO",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "New York",
+      "year": 2023
+    },
+    {
+      "employer": "Lightmatter, Inc.",
+      "jobTitle": "Sr. Staff Product Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Mountain View",
+      "year": 2023
+    },
+    {
+      "employer": "Advanced Micro Devices,  Inc.",
+      "jobTitle": "Sr. Program Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Santa Clara",
+      "year": 2023
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "TikTok Shop - Senior Inventory Product Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Technical Program Manager (Security Engineer)",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Glean Technologies, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Palo Alto",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Privacy Program Manager, PDPO",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "PURE STORAGE, INC.",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 280000,
+      "city": "Santa Clara",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Amazon.com Services LLC",
+      "jobTitle": "Principal, Product Manager Technical - External Services",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Santa Clara",
+      "year": 2024
+    },
+    {
+      "employer": "Marqeta, Inc.",
+      "jobTitle": "Principal Technical Program Manager - Data",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Chantilly",
+      "year": 2024
+    },
+    {
+      "employer": "Tenstorrent USA, Inc.",
+      "jobTitle": "Principal Technical Program Manager, Metal",
+      "salaryFrom": 260000,
+      "salaryTo": 260000,
+      "city": "Santa Clara",
+      "year": 2024
+    },
+    {
+      "employer": "Waymo LLC",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 259000,
+      "salaryTo": 259000,
+      "city": "Mountain View",
+      "year": 2023
+    },
+    {
+      "employer": "Mercury Technologies, Inc.",
+      "jobTitle": "Senior Product Manager – Growth",
+      "salaryFrom": 258800,
+      "salaryTo": 258800,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Robinhood Markets, Inc.",
+      "jobTitle": "Senior Staff Technical Program Manager",
+      "salaryFrom": 258455,
+      "salaryTo": 278455,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Etsy, Inc.",
+      "jobTitle": "Group Product Manager, Ads ML",
+      "salaryFrom": 258300,
+      "salaryTo": 258300,
+      "city": "Brooklyn",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 258107,
+      "salaryTo": 258107,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "UBER TECHNOLOGIES, INC.",
+      "jobTitle": "Lead Product Manager",
+      "salaryFrom": 258100,
+      "salaryTo": 258100,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "HashiCorp, Inc.",
+      "jobTitle": "Staff Product Manager",
+      "salaryFrom": 258000,
+      "salaryTo": 258000,
+      "city": "Atlanta",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 257640,
+      "salaryTo": 257640,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 257640,
+      "salaryTo": 257640,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Circle Internet Financial, LLC",
+      "jobTitle": "Lead Product Manager",
+      "salaryFrom": 256650,
+      "salaryTo": 276650,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 256527,
+      "salaryTo": 256527,
+      "city": "Burlingame",
+      "year": 2024
+    },
+    {
+      "employer": "Block, Inc.",
+      "jobTitle": "Software Product Manager",
+      "salaryFrom": 256068,
+      "salaryTo": 256068,
+      "city": "Oakland",
+      "year": 2024
+    },
+    {
+      "employer": "Databricks, Inc.",
+      "jobTitle": "Sr. Staff Technical Program Manager",
+      "salaryFrom": 255445,
+      "salaryTo": 300000,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "Atlassian US, Inc.",
+      "jobTitle": "Senior Technical Program Manager",
+      "salaryFrom": 255445,
+      "salaryTo": 293762,
+      "city": "Mountain View",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok Inc.",
+      "jobTitle": "TikTok Shop - Senior Product Manager - Seller Growth",
+      "salaryFrom": 255000,
+      "salaryTo": 255000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Firebolt Analytics, Inc.",
+      "jobTitle": "Product Manager, UX",
+      "salaryFrom": 255000,
+      "salaryTo": 285000,
+      "city": "Kirkland",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 255000,
+      "salaryTo": 255000,
+      "city": "Burlingame",
+      "year": 2024
+    },
+    {
+      "employer": "Turner Services, Inc.",
+      "jobTitle": "Principal Product Manager, Growth",
+      "salaryFrom": 255000,
+      "salaryTo": 295000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 255000,
+      "salaryTo": 255000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "PayPal, Inc.",
+      "jobTitle": "Lead Product Manager",
+      "salaryFrom": 255000,
+      "salaryTo": 255000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "TUBI Inc.",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 254938,
+      "salaryTo": 254938,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 254832,
+      "salaryTo": 254832,
+      "city": "Burlingame",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 254250,
+      "salaryTo": 254250,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Stripe, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 253864,
+      "salaryTo": 330000,
+      "city": "South San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 253000,
+      "salaryTo": 253000,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 253000,
+      "salaryTo": 253000,
+      "city": "Menlo Park",
+      "year": 2023
+    },
+    {
+      "employer": "Google LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 253000,
+      "salaryTo": 253000,
+      "city": "Seattle",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 252735,
+      "salaryTo": 252735,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 252735,
+      "salaryTo": 252735,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "Twilio, Inc.",
+      "jobTitle": "Principal, Product Manager (L5)",
+      "salaryFrom": 252692,
+      "salaryTo": 252692,
+      "city": "San Ramon",
+      "year": 2024
+    },
+    {
+      "employer": "TUBI, Inc.",
+      "jobTitle": "Principal Technical Product Manager",
+      "salaryFrom": 252500,
+      "salaryTo": 252500,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "Gorgias, Inc.",
+      "jobTitle": "Product Manager, Automation Team",
+      "salaryFrom": 252350,
+      "salaryTo": 252350,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 252000,
+      "salaryTo": 252000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Sigma Computing, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 252000,
+      "salaryTo": 252000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 251989,
+      "salaryTo": 251989,
+      "city": "Palo Alto",
+      "year": 2024
+    },
+    {
+      "employer": "Afterpay US, Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 251700,
+      "salaryTo": 251700,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "Afterpay US, Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 251700,
+      "salaryTo": 251700,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "SQUARESPACE, INC.",
+      "jobTitle": "Staff Product Manager",
+      "salaryFrom": 251680,
+      "salaryTo": 251680,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "F5, Inc.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 251664,
+      "salaryTo": 251664,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "RingCentral, Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 251576,
+      "salaryTo": 251576,
+      "city": "North Bend",
+      "year": 2024
+    },
+    {
+      "employer": "NVIDIA Corporation",
+      "jobTitle": "Program Manager",
+      "salaryFrom": 251576,
+      "salaryTo": 299000,
+      "city": "Seattle",
+      "year": 2024
+    },
+    {
+      "employer": "BYTEDANCE INC.",
+      "jobTitle": "Technical Program Manager, Interconnection",
+      "salaryFrom": 251000,
+      "salaryTo": 251000,
+      "city": "San Jose",
+      "year": 2023
+    },
+    {
+      "employer": "Salesforce, Inc.",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 250789,
+      "salaryTo": 250789,
+      "city": "Seattle",
+      "year": 2024
+    },
+    {
+      "employer": "Salesforce, Inc.",
+      "jobTitle": "Senior Product Manager, Financial Services",
+      "salaryFrom": 250369,
+      "salaryTo": 250369,
+      "city": "Dorchester",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 250353,
+      "salaryTo": 250353,
+      "city": "San Francisco",
+      "year": 2023
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 250346,
+      "salaryTo": 250346,
+      "city": "Menlo Park",
+      "year": 2024
+    },
+    {
+      "employer": "Block, Inc.",
+      "jobTitle": "Product Manager, Risk",
+      "salaryFrom": 250344,
+      "salaryTo": 250344,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 250289,
+      "salaryTo": 250289,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "RIDECELL, INC.",
+      "jobTitle": "Principal Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "SAN FRANCISCO",
+      "year": 2023
+    },
+    {
+      "employer": "Armor Defense, Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Bellevue",
+      "year": 2023
+    },
+    {
+      "employer": "Melko Logistic Group Corp",
+      "jobTitle": "President of Sourcing and Product Development",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Roseland",
+      "year": 2023
+    },
+    {
+      "employer": "ByteDance Inc.",
+      "jobTitle": "Customer Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "San Jose",
+      "year": 2023
+    },
+    {
+      "employer": "CoreWeave, Inc.",
+      "jobTitle": "Senior Product Manager of Compute",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "San Jose",
+      "year": 2023
+    },
+    {
+      "employer": "Adobe Inc.",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 265000,
+      "city": "San Jose",
+      "year": 2024
+    },
+    {
+      "employer": "Academia, Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250100,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "GoodLeap, LLC",
+      "jobTitle": "Principal Product Manager, Conversational AI",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Los Gatos",
+      "year": 2024
+    },
+    {
+      "employer": "GoodLeap, LLC",
+      "jobTitle": "Principal Product Manager, Conversational AI",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Los Gatos",
+      "year": 2024
+    },
+    {
+      "employer": "CITADEL ENTERPRISE AMERICAS SERVICES LLC",
+      "jobTitle": "Business Analyst / Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "Reddit, Inc.",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Jane Street Group, LLC",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "D. E. Shaw & Co., L.P.",
+      "jobTitle": "Cove Technical Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "Jane Street Group, LLC",
+      "jobTitle": "Technical Program Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "New York",
+      "year": 2024
+    },
+    {
+      "employer": "Meta Platforms, Inc",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Seattle",
+      "year": 2024
+    },
+    {
+      "employer": "Waymo LLC",
+      "jobTitle": "Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Bothell",
+      "year": 2024
+    },
+    {
+      "employer": "DocuSign Inc.",
+      "jobTitle": "Lead Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 270000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "DocuSign Inc.",
+      "jobTitle": "Lead Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 270000,
+      "city": "Danville",
+      "year": 2024
+    },
+    {
+      "employer": "Redis Inc.",
+      "jobTitle": "Senior Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "TikTok U.S. Data Security Inc.",
+      "jobTitle": "Strategy Product Manager - USDS",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Bellevue",
+      "year": 2024
+    },
+    {
+      "employer": "Attentive Mobile, Inc.",
+      "jobTitle": "Lead Product Manager, AI Campaigns",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "San Francisco",
+      "year": 2024
+    },
+    {
+      "employer": "Medallia, Inc.",
+      "jobTitle": "Principal Technical Program Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Pleasanton",
+      "year": 2024
+    }
+  ],
+  "filingsByYear": [
+    {
+      "year": 2023,
+      "total": 115849,
+      "certified": 115849,
+      "denied": 0
+    },
+    {
+      "year": 2024,
+      "total": 208911,
+      "certified": 208911,
+      "denied": 0
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-04-05",
+    "source": "DOL OFLC LCA Disclosure",
+    "fiscalYears": [
+      "FY2023",
+      "FY2024"
+    ]
+  }
+}

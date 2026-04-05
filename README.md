@@ -1,30 +1,36 @@
-# dev-template
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Harshit's standard starting point for all new projects. Clone this template to get the full project structure, workflow commands, and context files set up from day one.
+## Getting Started
 
-## What's Included
+First, run the development server:
 
-- `.cursorrules` — tells Cursor to read CLAUDE.md automatically at every session start
-- `CLAUDE.md` — project intelligence template, fill in per project
-- `AGENTS.md` — agent instructions template
-- `docs/decisions.md` — product decision log template
-- `.claude/commands/` — slash commands for Claude Code workflow
-- `.cursor/rules/` — Cursor workflow rules
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Slash Commands
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- `/explore` — understand the codebase before touching anything
-- `/create-plan` — propose an approach, wait for approval
-- `/execute` — build only what was approved
-- `/review` — check for errors and quality
-- `/document` — update CLAUDE.md with what changed this session
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Repo Files
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-**CLAUDE.md** — technical context for Claude Code. Fill in stack, architecture, code rules, and known issues when starting a new project.
+## Learn More
 
-**docs/decisions.md** — product decision log. Record significant decisions here as you build. Each entry: what was decided, why, what was rejected.
+To learn more about Next.js, take a look at the following resources:
 
-## How to Use
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Go to `github.com/harshitleads/dev-template` and click "Use this template" to create a new repo. Never clone directly.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

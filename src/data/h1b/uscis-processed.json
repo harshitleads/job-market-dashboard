@@ -1,0 +1,845 @@
+{
+  "approvalTrends": [
+    {
+      "year": "FY2022",
+      "initialApproved": 138378,
+      "initialDenied": 3132,
+      "continuingApproved": 327807,
+      "continuingDenied": 6453
+    },
+    {
+      "year": "FY2023",
+      "initialApproved": 76628,
+      "initialDenied": 4864,
+      "continuingApproved": 277270,
+      "continuingDenied": 7836
+    },
+    {
+      "year": "FY2024",
+      "initialApproved": 187850,
+      "initialDenied": 4932,
+      "continuingApproved": 163028,
+      "continuingDenied": 3298
+    },
+    {
+      "year": "FY2025",
+      "initialApproved": 172208,
+      "initialDenied": 4739,
+      "continuingApproved": 184683,
+      "continuingDenied": 4186
+    },
+    {
+      "year": "FY2026",
+      "initialApproved": 43527,
+      "initialDenied": 1249,
+      "continuingApproved": 37970,
+      "continuingDenied": 1171
+    }
+  ],
+  "topEmployers": [
+    {
+      "employer": "AMAZON.COM SERVICES LLC",
+      "totalApproved": 23616,
+      "totalDenied": 545,
+      "approvalRate": 97.7,
+      "state": "VA",
+      "naics": "45"
+    },
+    {
+      "employer": "COGNIZANT TECHNOLOGY SOLUTIONS US",
+      "totalApproved": 20822,
+      "totalDenied": 501,
+      "approvalRate": 97.7,
+      "state": "TX",
+      "naics": "54"
+    },
+    {
+      "employer": "TATA CONSULTANCY SVCS LTD",
+      "totalApproved": 18755,
+      "totalDenied": 906,
+      "approvalRate": 95.4,
+      "state": "MD",
+      "naics": "54"
+    },
+    {
+      "employer": "INFOSYS LIMITED",
+      "totalApproved": 18296,
+      "totalDenied": 377,
+      "approvalRate": 98,
+      "state": "TX",
+      "naics": "62"
+    },
+    {
+      "employer": "GOOGLE LLC",
+      "totalApproved": 16119,
+      "totalDenied": 297,
+      "approvalRate": 98.2,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "MICROSOFT CORPORATION",
+      "totalApproved": 15774,
+      "totalDenied": 356,
+      "approvalRate": 97.8,
+      "state": "WA",
+      "naics": "51"
+    },
+    {
+      "employer": "APPLE INC",
+      "totalApproved": 13513,
+      "totalDenied": 202,
+      "approvalRate": 98.5,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "META PLATFORMS INC",
+      "totalApproved": 12199,
+      "totalDenied": 169,
+      "approvalRate": 98.6,
+      "state": "CA",
+      "naics": "51"
+    },
+    {
+      "employer": "DELOITTE CONSULTING LLP",
+      "totalApproved": 10608,
+      "totalDenied": 162,
+      "approvalRate": 98.5,
+      "state": "PA",
+      "naics": "54"
+    },
+    {
+      "employer": "INTEL CORP",
+      "totalApproved": 10601,
+      "totalDenied": 341,
+      "approvalRate": 96.9,
+      "state": "AZ",
+      "naics": "33"
+    },
+    {
+      "employer": "AMAZON WEB SERVICES INC",
+      "totalApproved": 10431,
+      "totalDenied": 214,
+      "approvalRate": 98,
+      "state": "WA",
+      "naics": "51"
+    },
+    {
+      "employer": "IBM CORPORATION",
+      "totalApproved": 9137,
+      "totalDenied": 136,
+      "approvalRate": 98.5,
+      "state": "NC",
+      "naics": "54"
+    },
+    {
+      "employer": "HCL AMERICA INC",
+      "totalApproved": 9116,
+      "totalDenied": 263,
+      "approvalRate": 97.2,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "AMAZON COM SERVICES LLC",
+      "totalApproved": 8260,
+      "totalDenied": 422,
+      "approvalRate": 95.1,
+      "state": "VA",
+      "naics": "45"
+    },
+    {
+      "employer": "CAPGEMINI AMERICA INC",
+      "totalApproved": 8026,
+      "totalDenied": 182,
+      "approvalRate": 97.8,
+      "state": "IL",
+      "naics": "54"
+    },
+    {
+      "employer": "WIPRO LIMITED",
+      "totalApproved": 7857,
+      "totalDenied": 263,
+      "approvalRate": 96.8,
+      "state": "NJ",
+      "naics": "54"
+    },
+    {
+      "employer": "ACCENTURE LLP",
+      "totalApproved": 7560,
+      "totalDenied": 91,
+      "approvalRate": 98.8,
+      "state": "IL",
+      "naics": "54"
+    },
+    {
+      "employer": "ORACLE AMERICA INC",
+      "totalApproved": 7272,
+      "totalDenied": 42,
+      "approvalRate": 99.4,
+      "state": "TX",
+      "naics": "51"
+    },
+    {
+      "employer": "ERNST YOUNG US LLP",
+      "totalApproved": 6896,
+      "totalDenied": 140,
+      "approvalRate": 98,
+      "state": "NJ",
+      "naics": "54"
+    },
+    {
+      "employer": "JPMORGAN CHASE CO",
+      "totalApproved": 6450,
+      "totalDenied": 78,
+      "approvalRate": 98.8,
+      "state": "IL",
+      "naics": "52"
+    },
+    {
+      "employer": "CISCO SYSTEMS INC",
+      "totalApproved": 6400,
+      "totalDenied": 117,
+      "approvalRate": 98.2,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "LTIMINDTREE LIMITED",
+      "totalApproved": 6380,
+      "totalDenied": 74,
+      "approvalRate": 98.9,
+      "state": "",
+      "naics": "54"
+    },
+    {
+      "employer": "WAL MART ASSOCIATES INC",
+      "totalApproved": 5792,
+      "totalDenied": 76,
+      "approvalRate": 98.7,
+      "state": "AR",
+      "naics": "99"
+    },
+    {
+      "employer": "TESLA INC",
+      "totalApproved": 5595,
+      "totalDenied": 91,
+      "approvalRate": 98.4,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "NVIDIA CORPORATION",
+      "totalApproved": 5549,
+      "totalDenied": 32,
+      "approvalRate": 99.4,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "COMPUNNEL SOFTWARE GROUP INC",
+      "totalApproved": 5334,
+      "totalDenied": 145,
+      "approvalRate": 97.4,
+      "state": "NJ",
+      "naics": "54"
+    },
+    {
+      "employer": "QUALCOMM TECHNOLOGIES INC",
+      "totalApproved": 5168,
+      "totalDenied": 132,
+      "approvalRate": 97.5,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "TATA CONSULTANCY SERVICES LIMITED",
+      "totalApproved": 5121,
+      "totalDenied": 552,
+      "approvalRate": 90.3,
+      "state": "MD",
+      "naics": ""
+    },
+    {
+      "employer": "FIDELITY INVESTMENTS",
+      "totalApproved": 5043,
+      "totalDenied": 97,
+      "approvalRate": 98.1,
+      "state": "MA",
+      "naics": "52"
+    },
+    {
+      "employer": "TECH MAHINDRA AMERICAS INC",
+      "totalApproved": 5039,
+      "totalDenied": 85,
+      "approvalRate": 98.3,
+      "state": "NJ",
+      "naics": "54"
+    },
+    {
+      "employer": "WAL-MART ASSOCIATES INC",
+      "totalApproved": 4388,
+      "totalDenied": 33,
+      "approvalRate": 99.3,
+      "state": "AR",
+      "naics": ""
+    },
+    {
+      "employer": "SALESFORCE INC",
+      "totalApproved": 4358,
+      "totalDenied": 60,
+      "approvalRate": 98.6,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "LINKEDIN CORPORATION",
+      "totalApproved": 3916,
+      "totalDenied": 32,
+      "approvalRate": 99.2,
+      "state": "CA",
+      "naics": "51"
+    },
+    {
+      "employer": "AMAZON DEVELOPMENT CENTER US INC",
+      "totalApproved": 3826,
+      "totalDenied": 67,
+      "approvalRate": 98.3,
+      "state": "VA",
+      "naics": "45"
+    },
+    {
+      "employer": "PWC ADVISORY SERVICES LLC",
+      "totalApproved": 3683,
+      "totalDenied": 29,
+      "approvalRate": 99.2,
+      "state": "FL",
+      "naics": "54"
+    },
+    {
+      "employer": "MPHASIS CORPORATION",
+      "totalApproved": 3534,
+      "totalDenied": 17,
+      "approvalRate": 99.5,
+      "state": "NY",
+      "naics": "54"
+    },
+    {
+      "employer": "CITIBANK N A",
+      "totalApproved": 3459,
+      "totalDenied": 19,
+      "approvalRate": 99.5,
+      "state": "NY",
+      "naics": "22"
+    },
+    {
+      "employer": "JPMORGAN CHASE AND CO",
+      "totalApproved": 3347,
+      "totalDenied": 28,
+      "approvalRate": 99.2,
+      "state": "IL",
+      "naics": "55"
+    },
+    {
+      "employer": "PAYPAL INC",
+      "totalApproved": 3253,
+      "totalDenied": 43,
+      "approvalRate": 98.7,
+      "state": "CA",
+      "naics": "52"
+    },
+    {
+      "employer": "INTUIT INC",
+      "totalApproved": 3148,
+      "totalDenied": 16,
+      "approvalRate": 99.5,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "UBER TECHNOLOGIES INC",
+      "totalApproved": 3099,
+      "totalDenied": 37,
+      "approvalRate": 98.8,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "CGI TECHNOLOGIES AND SOLUTIONS INC",
+      "totalApproved": 3081,
+      "totalDenied": 45,
+      "approvalRate": 98.6,
+      "state": "VA",
+      "naics": "51"
+    },
+    {
+      "employer": "FORD MOTOR COMPANY",
+      "totalApproved": 3024,
+      "totalDenied": 35,
+      "approvalRate": 98.9,
+      "state": "MI",
+      "naics": "33"
+    },
+    {
+      "employer": "ADOBE INC",
+      "totalApproved": 2930,
+      "totalDenied": 84,
+      "approvalRate": 97.2,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "BYTEDANCE INC",
+      "totalApproved": 2891,
+      "totalDenied": 33,
+      "approvalRate": 98.9,
+      "state": "CA",
+      "naics": "51"
+    },
+    {
+      "employer": "BLOOMBERG LP",
+      "totalApproved": 2863,
+      "totalDenied": 29,
+      "approvalRate": 99,
+      "state": "NY",
+      "naics": "51"
+    },
+    {
+      "employer": "CAPITAL ONE SERVICES LLC",
+      "totalApproved": 2717,
+      "totalDenied": 14,
+      "approvalRate": 99.5,
+      "state": "VA",
+      "naics": "52"
+    },
+    {
+      "employer": "CUMMINS INC",
+      "totalApproved": 2607,
+      "totalDenied": 68,
+      "approvalRate": 97.5,
+      "state": "TN",
+      "naics": "33"
+    },
+    {
+      "employer": "AMERICAN EXPRESS TRAVEL RELATED SERVICES COMPANY INC",
+      "totalApproved": 2469,
+      "totalDenied": 11,
+      "approvalRate": 99.6,
+      "state": "NY",
+      "naics": "52"
+    },
+    {
+      "employer": "BARCLAYS SERVICES CORP",
+      "totalApproved": 2460,
+      "totalDenied": 38,
+      "approvalRate": 98.5,
+      "state": "NY",
+      "naics": "52"
+    },
+    {
+      "employer": "EBAY INC",
+      "totalApproved": 2391,
+      "totalDenied": 13,
+      "approvalRate": 99.5,
+      "state": "CA",
+      "naics": "45"
+    },
+    {
+      "employer": "SERVICENOW INC",
+      "totalApproved": 2390,
+      "totalDenied": 45,
+      "approvalRate": 98.2,
+      "state": "AL",
+      "naics": "54"
+    },
+    {
+      "employer": "ADVANCED MICRO DEVICES INC",
+      "totalApproved": 2386,
+      "totalDenied": 22,
+      "approvalRate": 99.1,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "OPTUM SERVICES INC",
+      "totalApproved": 2375,
+      "totalDenied": 19,
+      "approvalRate": 99.2,
+      "state": "MN",
+      "naics": "54"
+    },
+    {
+      "employer": "ATOS SYNTEL INC",
+      "totalApproved": 2366,
+      "totalDenied": 41,
+      "approvalRate": 98.3,
+      "state": "MI",
+      "naics": "54"
+    },
+    {
+      "employer": "COMCAST CABLE COMMUNICATIONS LLC",
+      "totalApproved": 2350,
+      "totalDenied": 35,
+      "approvalRate": 98.5,
+      "state": "PA",
+      "naics": "51"
+    },
+    {
+      "employer": "KFORCE INC",
+      "totalApproved": 2334,
+      "totalDenied": 193,
+      "approvalRate": 92.4,
+      "state": "FL",
+      "naics": "54"
+    },
+    {
+      "employer": "VIRTUSA CORPORATION",
+      "totalApproved": 2316,
+      "totalDenied": 71,
+      "approvalRate": 97,
+      "state": "MA",
+      "naics": "54"
+    },
+    {
+      "employer": "MORGAN STANLEY SERVICES GROUP INC",
+      "totalApproved": 2309,
+      "totalDenied": 41,
+      "approvalRate": 98.3,
+      "state": "NY",
+      "naics": "52"
+    },
+    {
+      "employer": "THE LELAND STANFORD JR UNIVERSITY",
+      "totalApproved": 2303,
+      "totalDenied": 16,
+      "approvalRate": 99.3,
+      "state": "CA",
+      "naics": "61"
+    },
+    {
+      "employer": "SALESFORCE COM INC",
+      "totalApproved": 2250,
+      "totalDenied": 19,
+      "approvalRate": 99.2,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "UST GLOBAL INC",
+      "totalApproved": 2245,
+      "totalDenied": 25,
+      "approvalRate": 98.9,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "HEXAWARE TECHNOLOGIES INC",
+      "totalApproved": 2228,
+      "totalDenied": 24,
+      "approvalRate": 98.9,
+      "state": "NJ",
+      "naics": "54"
+    },
+    {
+      "employer": "AMAZON DEVELOPMENT CENTER U S INC",
+      "totalApproved": 2168,
+      "totalDenied": 13,
+      "approvalRate": 99.4,
+      "state": "VA",
+      "naics": ""
+    },
+    {
+      "employer": "CHARTER COMMUNICATIONS INC",
+      "totalApproved": 2163,
+      "totalDenied": 33,
+      "approvalRate": 98.5,
+      "state": "MO",
+      "naics": "51"
+    },
+    {
+      "employer": "VMWARE INC",
+      "totalApproved": 2033,
+      "totalDenied": 35,
+      "approvalRate": 98.3,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "FIDELITY TECHNOLOGY GROUP LLC D B A FIDELITY INVESTMENTS",
+      "totalApproved": 2004,
+      "totalDenied": 5,
+      "approvalRate": 99.8,
+      "state": "MA",
+      "naics": ""
+    },
+    {
+      "employer": "UNIVERSITY OF MICHIGAN",
+      "totalApproved": 1998,
+      "totalDenied": 28,
+      "approvalRate": 98.6,
+      "state": "MI",
+      "naics": "61"
+    },
+    {
+      "employer": "AMAZON DATA SERVICES INC",
+      "totalApproved": 1992,
+      "totalDenied": 32,
+      "approvalRate": 98.4,
+      "state": "VA",
+      "naics": "51"
+    },
+    {
+      "employer": "PALO ALTO NETWORKS INC",
+      "totalApproved": 1990,
+      "totalDenied": 37,
+      "approvalRate": 98.2,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "EXPEDIA INC",
+      "totalApproved": 1935,
+      "totalDenied": 29,
+      "approvalRate": 98.5,
+      "state": "WA",
+      "naics": "51"
+    },
+    {
+      "employer": "SYNECHRON INC",
+      "totalApproved": 1911,
+      "totalDenied": 8,
+      "approvalRate": 99.6,
+      "state": "NY",
+      "naics": "54"
+    },
+    {
+      "employer": "APPLIED MATERIALS INC",
+      "totalApproved": 1874,
+      "totalDenied": 27,
+      "approvalRate": 98.6,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "RIVIAN AUTOMOTIVE LLC",
+      "totalApproved": 1865,
+      "totalDenied": 21,
+      "approvalRate": 98.9,
+      "state": "CA",
+      "naics": "33"
+    },
+    {
+      "employer": "GOLDMAN SACHS AND CO LLC",
+      "totalApproved": 1864,
+      "totalDenied": 46,
+      "approvalRate": 97.6,
+      "state": "NY",
+      "naics": "52 - Finance and Insurance"
+    },
+    {
+      "employer": "DOORDASH INC",
+      "totalApproved": 1820,
+      "totalDenied": 39,
+      "approvalRate": 97.9,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "TIKTOK INC",
+      "totalApproved": 1817,
+      "totalDenied": 37,
+      "approvalRate": 98,
+      "state": "CA",
+      "naics": "51"
+    },
+    {
+      "employer": "DFS CORPORATE SERVICES LLC",
+      "totalApproved": 1807,
+      "totalDenied": 13,
+      "approvalRate": 99.3,
+      "state": "IL",
+      "naics": "52"
+    },
+    {
+      "employer": "U.S BANK NATIONAL ASSOCIATION",
+      "totalApproved": 1797,
+      "totalDenied": 11,
+      "approvalRate": 99.4,
+      "state": "MN",
+      "naics": "52"
+    },
+    {
+      "employer": "CITIBANK NA",
+      "totalApproved": 1792,
+      "totalDenied": 8,
+      "approvalRate": 99.6,
+      "state": "NY",
+      "naics": "52"
+    },
+    {
+      "employer": "DELOITTE & TOUCHE LLP",
+      "totalApproved": 1734,
+      "totalDenied": 45,
+      "approvalRate": 97.5,
+      "state": "PA",
+      "naics": "99"
+    },
+    {
+      "employer": "FISERV SOLUTIONS LLC",
+      "totalApproved": 1690,
+      "totalDenied": 16,
+      "approvalRate": 99.1,
+      "state": "CA",
+      "naics": "51"
+    },
+    {
+      "employer": "ELEVANCE HEALTH INC",
+      "totalApproved": 1683,
+      "totalDenied": 25,
+      "approvalRate": 98.5,
+      "state": "IN",
+      "naics": "52"
+    },
+    {
+      "employer": "MAYO CLINIC",
+      "totalApproved": 1674,
+      "totalDenied": 14,
+      "approvalRate": 99.2,
+      "state": "MN",
+      "naics": "61"
+    },
+    {
+      "employer": "KPMG LLP",
+      "totalApproved": 1652,
+      "totalDenied": 33,
+      "approvalRate": 98,
+      "state": "TX",
+      "naics": "54"
+    },
+    {
+      "employer": "MASTERCARD INTERNATIONAL INC",
+      "totalApproved": 1651,
+      "totalDenied": 10,
+      "approvalRate": 99.4,
+      "state": "NY",
+      "naics": "52"
+    },
+    {
+      "employer": "LUCID USA INC",
+      "totalApproved": 1639,
+      "totalDenied": 26,
+      "approvalRate": 98.4,
+      "state": "CA",
+      "naics": "44"
+    },
+    {
+      "employer": "AMGEN INC",
+      "totalApproved": 1599,
+      "totalDenied": 9,
+      "approvalRate": 99.4,
+      "state": "CA",
+      "naics": "54"
+    },
+    {
+      "employer": "CAREMARK LLC",
+      "totalApproved": 1597,
+      "totalDenied": 15,
+      "approvalRate": 99.1,
+      "state": "RI",
+      "naics": "44"
+    },
+    {
+      "employer": "DELOITTE TAX LLP",
+      "totalApproved": 1592,
+      "totalDenied": 12,
+      "approvalRate": 99.3,
+      "state": "PA",
+      "naics": "54"
+    },
+    {
+      "employer": "ERNST AND YOUNG U S LLP",
+      "totalApproved": 1564,
+      "totalDenied": 28,
+      "approvalRate": 98.2,
+      "state": "NJ",
+      "naics": ""
+    },
+    {
+      "employer": "GOLDMAN SACHS SERVICES LLC",
+      "totalApproved": 1532,
+      "totalDenied": 29,
+      "approvalRate": 98.1,
+      "state": "NJ",
+      "naics": "52"
+    },
+    {
+      "employer": "ADP TECHNOLOGY SERVICES INC",
+      "totalApproved": 1521,
+      "totalDenied": 11,
+      "approvalRate": 99.3,
+      "state": "NJ",
+      "naics": "51"
+    },
+    {
+      "employer": "CVS PHARMACY INC",
+      "totalApproved": 1490,
+      "totalDenied": 10,
+      "approvalRate": 99.3,
+      "state": "RI",
+      "naics": "44"
+    },
+    {
+      "employer": "MICRON TECHNOLOGY INC",
+      "totalApproved": 1450,
+      "totalDenied": 15,
+      "approvalRate": 99,
+      "state": "ID",
+      "naics": "33"
+    },
+    {
+      "employer": "PRICEWATERHOUSECOOPERS LLP",
+      "totalApproved": 1437,
+      "totalDenied": 9,
+      "approvalRate": 99.4,
+      "state": "AL",
+      "naics": "54"
+    },
+    {
+      "employer": "HEWLETT PACKARD ENTERPRISE COMPANY",
+      "totalApproved": 1425,
+      "totalDenied": 19,
+      "approvalRate": 98.7,
+      "state": "TX",
+      "naics": "54"
+    },
+    {
+      "employer": "GENERAL MOTORS",
+      "totalApproved": 1385,
+      "totalDenied": 15,
+      "approvalRate": 98.9,
+      "state": "MI",
+      "naics": ""
+    },
+    {
+      "employer": "WORKDAY INC",
+      "totalApproved": 1379,
+      "totalDenied": 9,
+      "approvalRate": 99.4,
+      "state": "CA",
+      "naics": "51"
+    },
+    {
+      "employer": "FACEBOOK INC",
+      "totalApproved": 1369,
+      "totalDenied": 7,
+      "approvalRate": 99.5,
+      "state": "CA",
+      "naics": "54"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-04-05",
+    "source": "USCIS H-1B Employer Data Hub"
+  }
+}
