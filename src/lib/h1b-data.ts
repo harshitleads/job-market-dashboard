@@ -17,6 +17,7 @@ export interface PMSalary {
   salaryFrom: number;
   salaryTo: number;
   city: string;
+  state?: string;
   year: number;
 }
 
@@ -72,8 +73,10 @@ function matchesGeography(
 }
 
 export function getTopSponsors(geography = "us"): Sponsor[] {
+  // Sponsors are employer-level (no worksite city), so Bay Area falls back to CA
+  const geoForSponsors = geography === "bayarea" ? "california" : geography;
   const sponsors = (lcaData.topSponsors as Sponsor[]).filter((s) =>
-    matchesGeography(s.state, undefined, geography)
+    matchesGeography(s.state, undefined, geoForSponsors)
   );
 
   // Join with USCIS approval rate data
@@ -88,13 +91,43 @@ export function getTopSponsors(geography = "us"): Sponsor[] {
   }));
 }
 
+// Known CA cities that appear in PM salary data but aren't in the Bay Area list
+const knownCACities = new Set([
+  ...BAY_AREA_CITIES.map((c) => c.toUpperCase()),
+  "LOS ANGELES",
+  "SAN DIEGO",
+  "SACRAMENTO",
+  "LOS GATOS",
+  "IRVINE",
+  "BURLINGAME",
+  "SOUTH SAN FRANCISCO",
+  "SAN MATEO",
+  "FOSTER CITY",
+  "MILPITAS",
+  "PLEASANTON",
+  "WALNUT CREEK",
+  "EMERYVILLE",
+  "HALF MOON BAY",
+  "DALY CITY",
+  "SAN CARLOS",
+  "BELMONT",
+  "SAN BRUNO",
+  "CAMPBELL",
+  "SANTA MONICA",
+  "PASADENA",
+]);
+
+function inferIsCA(s: PMSalary): boolean {
+  if (s.state) return s.state.toUpperCase() === "CA";
+  if (!s.city) return false;
+  const cityUp = s.city.toUpperCase();
+  return knownCACities.has(cityUp) || bayAreaCitiesUpper.has(cityUp);
+}
+
 export function getPMSalaries(geography = "us"): PMSalary[] {
   return (lcaData.pmSalaries as PMSalary[]).filter((s) => {
     if (geography === "us") return true;
-    if (geography === "california") {
-      // Filter by known CA cities from our sample data
-      return true; // In sample data, most PM roles are CA-based
-    }
+    if (geography === "california") return inferIsCA(s);
     if (geography === "bayarea") {
       return bayAreaCitiesUpper.has(s.city?.toUpperCase());
     }

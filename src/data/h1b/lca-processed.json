@@ -2,17 +2,17 @@
   "topSponsors": [
     {
       "employer": "AMAZON.COM SERVICES LLC",
-      "totalFilings": 9323,
-      "pmFilings": 1159,
-      "avgSalary": 153520,
+      "totalFilings": 9327,
+      "pmFilings": 1160,
+      "avgSalary": 153513,
       "state": "NY"
     },
     {
       "employer": "COGNIZANT TECHNOLOGY SOLUTIONS US CORP",
-      "totalFilings": 8033,
+      "totalFilings": 8034,
       "pmFilings": 0,
       "avgSalary": 0,
-      "state": "OH"
+      "state": "TX"
     },
     {
       "employer": "Microsoft Corporation",
@@ -23,31 +23,31 @@
     },
     {
       "employer": "Ernst & Young U.S. LLP",
-      "totalFilings": 4334,
+      "totalFilings": 4385,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "MI"
     },
     {
-      "employer": "Meta Platforms, Inc.",
-      "totalFilings": 4288,
-      "pmFilings": 220,
-      "avgSalary": 218414,
-      "state": "WA"
-    },
-    {
       "employer": "Google LLC",
-      "totalFilings": 4280,
-      "pmFilings": 439,
-      "avgSalary": 185899,
+      "totalFilings": 4351,
+      "pmFilings": 442,
+      "avgSalary": 185872,
       "state": "CA"
     },
     {
       "employer": "Tata Consultancy Services Limited",
-      "totalFilings": 4264,
+      "totalFilings": 4305,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "PA"
+    },
+    {
+      "employer": "Meta Platforms, Inc.",
+      "totalFilings": 4293,
+      "pmFilings": 221,
+      "avgSalary": 218286,
+      "state": "WA"
     },
     {
       "employer": "INFOSYS LIMITED",
@@ -58,52 +58,59 @@
     },
     {
       "employer": "Apple Inc.",
-      "totalFilings": 3394,
-      "pmFilings": 75,
-      "avgSalary": 165479,
+      "totalFilings": 3685,
+      "pmFilings": 86,
+      "avgSalary": 164376,
       "state": "CA"
     },
     {
       "employer": "WAL-MART ASSOCIATES, INC.",
-      "totalFilings": 2777,
-      "pmFilings": 195,
-      "avgSalary": 157404,
+      "totalFilings": 2887,
+      "pmFilings": 197,
+      "avgSalary": 157375,
       "state": "AR"
     },
     {
       "employer": "Amazon Web Services, Inc.",
-      "totalFilings": 2486,
+      "totalFilings": 2489,
       "pmFilings": 179,
       "avgSalary": 154136,
       "state": "NC"
     },
     {
       "employer": "Accenture LLP",
-      "totalFilings": 2444,
+      "totalFilings": 2455,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "IL"
     },
     {
       "employer": "HCL AMERICA INC",
-      "totalFilings": 2291,
+      "totalFilings": 2301,
       "pmFilings": 2,
       "avgSalary": 118418,
       "state": "NC"
     },
     {
-      "employer": "JPMorgan Chase & Co.",
-      "totalFilings": 2121,
-      "pmFilings": 53,
-      "avgSalary": 164258,
-      "state": "TX"
+      "employer": "Capgemini America, Inc.",
+      "totalFilings": 2195,
+      "pmFilings": 7,
+      "avgSalary": 147278,
+      "state": "MI"
     },
     {
-      "employer": "CAPGEMINI AMERICA INC",
-      "totalFilings": 2080,
-      "pmFilings": 4,
-      "avgSalary": 142986,
+      "employer": "JPMorgan Chase & Co.",
+      "totalFilings": 2144,
+      "pmFilings": 53,
+      "avgSalary": 164258,
       "state": "FL"
+    },
+    {
+      "employer": "IBM Corporation",
+      "totalFilings": 2035,
+      "pmFilings": 23,
+      "avgSalary": 157037,
+      "state": "GA"
     },
     {
       "employer": "Deloitte Consulting LLP",
@@ -114,31 +121,31 @@
     },
     {
       "employer": "WIPRO LIMITED",
-      "totalFilings": 1855,
-      "pmFilings": 26,
-      "avgSalary": 110482,
+      "totalFilings": 1927,
+      "pmFilings": 27,
+      "avgSalary": 109590,
       "state": "CA"
     },
     {
-      "employer": "LTIMINDTREE LIMITED",
-      "totalFilings": 1726,
+      "employer": "LTIMindtree Limited",
+      "totalFilings": 1742,
       "pmFilings": 0,
       "avgSalary": 0,
-      "state": "NJ"
-    },
-    {
-      "employer": "IBM Corporation",
-      "totalFilings": 1632,
-      "pmFilings": 20,
-      "avgSalary": 162133,
-      "state": "GA"
+      "state": "TX"
     },
     {
       "employer": "COMPUNNEL SOFTWARE GROUP, INC",
-      "totalFilings": 1403,
+      "totalFilings": 1404,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "IL"
+    },
+    {
+      "employer": "Tesla, Inc.",
+      "totalFilings": 1334,
+      "pmFilings": 62,
+      "avgSalary": 156939,
+      "state": "CA"
     },
     {
       "employer": "Intel Corporation",
@@ -146,13 +153,6 @@
       "pmFilings": 33,
       "avgSalary": 127280,
       "state": "OR"
-    },
-    {
-      "employer": "Tesla, Inc.",
-      "totalFilings": 1276,
-      "pmFilings": 60,
-      "avgSalary": 155737,
-      "state": "CA"
     },
     {
       "employer": "AMAZON DEVELOPMENT CENTER U.S., INC.",
@@ -163,17 +163,24 @@
     },
     {
       "employer": "Salesforce, Inc.",
-      "totalFilings": 1238,
+      "totalFilings": 1244,
       "pmFilings": 26,
       "avgSalary": 192255,
       "state": "TX"
     },
     {
       "employer": "Fidelity Technology Group, LLC",
-      "totalFilings": 1141,
+      "totalFilings": 1143,
       "pmFilings": 1,
       "avgSalary": 117832,
       "state": "UT"
+    },
+    {
+      "employer": "Mphasis Corporation",
+      "totalFilings": 1077,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "TX"
     },
     {
       "employer": "Deloitte & Touche LLP",
@@ -184,35 +191,28 @@
     },
     {
       "employer": "TECH MAHINDRA (AMERICAS), INC",
-      "totalFilings": 940,
-      "pmFilings": 19,
-      "avgSalary": 150801,
+      "totalFilings": 967,
+      "pmFilings": 20,
+      "avgSalary": 150761,
       "state": "TN"
     },
     {
-      "employer": "Mphasis Corporation",
-      "totalFilings": 920,
-      "pmFilings": 0,
-      "avgSalary": 0,
-      "state": "TX"
-    },
-    {
       "employer": "Qualcomm Technologies, Inc.",
-      "totalFilings": 898,
+      "totalFilings": 903,
       "pmFilings": 20,
       "avgSalary": 153302,
       "state": "CA"
     },
     {
       "employer": "Citibank, N.A.",
-      "totalFilings": 859,
+      "totalFilings": 860,
       "pmFilings": 4,
       "avgSalary": 178146,
       "state": "TX"
     },
     {
       "employer": "NVIDIA Corporation",
-      "totalFilings": 850,
+      "totalFilings": 856,
       "pmFilings": 59,
       "avgSalary": 195808,
       "state": "CA"
@@ -226,16 +226,16 @@
     },
     {
       "employer": "ByteDance Inc.",
-      "totalFilings": 737,
-      "pmFilings": 76,
-      "avgSalary": 235408,
+      "totalFilings": 756,
+      "pmFilings": 79,
+      "avgSalary": 234823,
       "state": "WA"
     },
     {
       "employer": "Oracle America, Inc.",
-      "totalFilings": 730,
-      "pmFilings": 66,
-      "avgSalary": 153053,
+      "totalFilings": 732,
+      "pmFilings": 67,
+      "avgSalary": 152768,
       "state": "CO"
     },
     {
@@ -247,10 +247,17 @@
     },
     {
       "employer": "American Express Travel Related Services Company, Inc.",
-      "totalFilings": 675,
+      "totalFilings": 677,
       "pmFilings": 17,
       "avgSalary": 151065,
       "state": "AZ"
+    },
+    {
+      "employer": "UBER TECHNOLOGIES, INC.",
+      "totalFilings": 649,
+      "pmFilings": 42,
+      "avgSalary": 179192,
+      "state": "CA"
     },
     {
       "employer": "FORD MOTOR COMPANY",
@@ -260,32 +267,32 @@
       "state": "MI"
     },
     {
-      "employer": "UBER TECHNOLOGIES, INC.",
-      "totalFilings": 636,
-      "pmFilings": 41,
-      "avgSalary": 178902,
-      "state": "CA"
+      "employer": "PayPal, Inc.",
+      "totalFilings": 632,
+      "pmFilings": 53,
+      "avgSalary": 182086,
+      "state": "NY"
     },
     {
       "employer": "PRICEWATERHOUSECOOPERS ADVISORY SERVICES LLC",
-      "totalFilings": 620,
+      "totalFilings": 622,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "MA"
     },
     {
-      "employer": "PayPal, Inc.",
-      "totalFilings": 582,
-      "pmFilings": 49,
-      "avgSalary": 182576,
-      "state": "NY"
-    },
-    {
       "employer": "Amazon Data Services, Inc",
-      "totalFilings": 582,
+      "totalFilings": 585,
       "pmFilings": 101,
       "avgSalary": 150354,
       "state": "VA"
+    },
+    {
+      "employer": "Rivian Automotive, LLC",
+      "totalFilings": 575,
+      "pmFilings": 25,
+      "avgSalary": 171960,
+      "state": "CA"
     },
     {
       "employer": "KFORCE INC.",
@@ -309,32 +316,60 @@
       "state": "PA"
     },
     {
+      "employer": "University of Michigan",
+      "totalFilings": 507,
+      "pmFilings": 1,
+      "avgSalary": 63000,
+      "state": "MI"
+    },
+    {
       "employer": "GOLDMAN SACHS & CO. LLC",
-      "totalFilings": 504,
+      "totalFilings": 505,
       "pmFilings": 1,
       "avgSalary": 190000,
       "state": "NY"
     },
     {
       "employer": "UST GLOBAL INC",
-      "totalFilings": 487,
+      "totalFilings": 493,
       "pmFilings": 6,
       "avgSalary": 102672,
       "state": "CA"
     },
     {
+      "employer": "VIRTUSA CORPORATION",
+      "totalFilings": 489,
+      "pmFilings": 4,
+      "avgSalary": 153750,
+      "state": "TX"
+    },
+    {
       "employer": "ServiceNow, Inc.",
-      "totalFilings": 478,
-      "pmFilings": 45,
-      "avgSalary": 151653,
+      "totalFilings": 483,
+      "pmFilings": 46,
+      "avgSalary": 150766,
       "state": "WA"
     },
     {
-      "employer": "VIRTUSA CORPORATION",
-      "totalFilings": 461,
-      "pmFilings": 3,
-      "avgSalary": 155000,
-      "state": "PA"
+      "employer": "Morgan Stanley Services Group, Inc.",
+      "totalFilings": 477,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "GA"
+    },
+    {
+      "employer": "AT&T SERVICES, INC.",
+      "totalFilings": 458,
+      "pmFilings": 22,
+      "avgSalary": 161919,
+      "state": "TX"
+    },
+    {
+      "employer": "Advanced Micro Devices,  Inc.",
+      "totalFilings": 452,
+      "pmFilings": 49,
+      "avgSalary": 146360,
+      "state": "WA"
     },
     {
       "employer": "Optum Services, Inc.",
@@ -344,25 +379,25 @@
       "state": "TN"
     },
     {
-      "employer": "Advanced Micro Devices,  Inc.",
-      "totalFilings": 450,
-      "pmFilings": 49,
-      "avgSalary": 146360,
-      "state": "WA"
-    },
-    {
-      "employer": "AT&T SERVICES, INC.",
-      "totalFilings": 449,
-      "pmFilings": 22,
-      "avgSalary": 161919,
-      "state": "TX"
+      "employer": "Elevance Health, Inc.",
+      "totalFilings": 448,
+      "pmFilings": 9,
+      "avgSalary": 134717,
+      "state": "CT"
     },
     {
       "employer": "Adobe Inc.",
-      "totalFilings": 444,
+      "totalFilings": 446,
       "pmFilings": 38,
       "avgSalary": 192245,
       "state": "CA"
+    },
+    {
+      "employer": "Cummins Inc.",
+      "totalFilings": 441,
+      "pmFilings": 15,
+      "avgSalary": 93572,
+      "state": "MN"
     },
     {
       "employer": "Wells Fargo Bank, N.A.",
@@ -379,11 +414,11 @@
       "state": "AZ"
     },
     {
-      "employer": "Elevance Health, Inc.",
-      "totalFilings": 429,
-      "pmFilings": 9,
-      "avgSalary": 134717,
-      "state": "CT"
+      "employer": "The Leland Stanford, Jr University",
+      "totalFilings": 434,
+      "pmFilings": 3,
+      "avgSalary": 109917,
+      "state": "CA"
     },
     {
       "employer": "RANDSTAD DIGITAL, LLC",
@@ -394,30 +429,37 @@
     },
     {
       "employer": "Intuit Inc.",
-      "totalFilings": 425,
+      "totalFilings": 427,
       "pmFilings": 60,
       "avgSalary": 181148,
       "state": "CA"
     },
     {
-      "employer": "Cummins Inc.",
-      "totalFilings": 424,
-      "pmFilings": 15,
-      "avgSalary": 93572,
-      "state": "MN"
+      "employer": "Comcast Cable Communications, LLC",
+      "totalFilings": 425,
+      "pmFilings": 24,
+      "avgSalary": 120338,
+      "state": "PA"
+    },
+    {
+      "employer": "U.S. Bank National Association",
+      "totalFilings": 423,
+      "pmFilings": 13,
+      "avgSalary": 130188,
+      "state": "OH"
+    },
+    {
+      "employer": "FIS Management Services, LLC",
+      "totalFilings": 421,
+      "pmFilings": 8,
+      "avgSalary": 173597,
+      "state": "MA"
     },
     {
       "employer": "Mastech Digital Technologies, Inc.",
       "totalFilings": 419,
       "pmFilings": 0,
       "avgSalary": 0,
-      "state": "OH"
-    },
-    {
-      "employer": "U.S. Bank National Association",
-      "totalFilings": 418,
-      "pmFilings": 12,
-      "avgSalary": 129432,
       "state": "OH"
     },
     {
@@ -428,6 +470,13 @@
       "state": "VA"
     },
     {
+      "employer": "ATOS SYNTEL INC",
+      "totalFilings": 415,
+      "pmFilings": 6,
+      "avgSalary": 108953,
+      "state": "CA"
+    },
+    {
       "employer": "Hexaware Technologies, Inc.",
       "totalFilings": 410,
       "pmFilings": 3,
@@ -435,39 +484,32 @@
       "state": "GA"
     },
     {
-      "employer": "Morgan Stanley Services Group, Inc.",
-      "totalFilings": 404,
-      "pmFilings": 0,
-      "avgSalary": 0,
-      "state": "GA"
-    },
-    {
-      "employer": "TikTok Inc.",
-      "totalFilings": 397,
-      "pmFilings": 42,
-      "avgSalary": 223260,
-      "state": "CA"
-    },
-    {
       "employer": "L&T TECHNOLOGY SERVICES LIMITED",
-      "totalFilings": 387,
+      "totalFilings": 409,
       "pmFilings": 5,
       "avgSalary": 115529,
       "state": "OH"
     },
     {
-      "employer": "University of Michigan",
-      "totalFilings": 386,
-      "pmFilings": 1,
-      "avgSalary": 63000,
-      "state": "MI"
+      "employer": "TikTok Inc.",
+      "totalFilings": 404,
+      "pmFilings": 43,
+      "avgSalary": 221324,
+      "state": "CA"
     },
     {
-      "employer": "FIS Management Services, LLC",
-      "totalFilings": 385,
-      "pmFilings": 6,
-      "avgSalary": 176053,
-      "state": "MA"
+      "employer": "eBay Inc.",
+      "totalFilings": 396,
+      "pmFilings": 31,
+      "avgSalary": 198908,
+      "state": "CA"
+    },
+    {
+      "employer": "T-Mobile USA, Inc.",
+      "totalFilings": 387,
+      "pmFilings": 30,
+      "avgSalary": 154482,
+      "state": "VA"
     },
     {
       "employer": "Barclays Services LLC",
@@ -477,29 +519,15 @@
       "state": "NJ"
     },
     {
-      "employer": "eBay Inc.",
-      "totalFilings": 378,
-      "pmFilings": 30,
-      "avgSalary": 201872,
-      "state": "NY"
-    },
-    {
-      "employer": "Comcast Cable Communications, LLC",
-      "totalFilings": 376,
-      "pmFilings": 20,
-      "avgSalary": 122010,
-      "state": "PA"
-    },
-    {
-      "employer": "ATOS SYNTEL INC",
-      "totalFilings": 373,
-      "pmFilings": 5,
-      "avgSalary": 108743,
-      "state": "IL"
+      "employer": "Charter Communications, Inc",
+      "totalFilings": 377,
+      "pmFilings": 4,
+      "avgSalary": 117459,
+      "state": "CO"
     },
     {
       "employer": "Charles Schwab & Company, Inc.",
-      "totalFilings": 371,
+      "totalFilings": 373,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "TX"
@@ -512,11 +540,25 @@
       "state": "MI"
     },
     {
-      "employer": "The Leland Stanford, Jr University",
-      "totalFilings": 368,
-      "pmFilings": 2,
-      "avgSalary": 97600,
-      "state": "CA"
+      "employer": "Johns Hopkins University",
+      "totalFilings": 353,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "MD"
+    },
+    {
+      "employer": "Synechron Inc.",
+      "totalFilings": 352,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "GA"
+    },
+    {
+      "employer": "TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA",
+      "totalFilings": 351,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "PA"
     },
     {
       "employer": "Palo Alto Networks, Inc.",
@@ -526,39 +568,18 @@
       "state": "CA"
     },
     {
-      "employer": "Charter Communications, Inc",
-      "totalFilings": 346,
-      "pmFilings": 4,
-      "avgSalary": 117459,
-      "state": "CO"
-    },
-    {
       "employer": "DoorDash, Inc.",
-      "totalFilings": 341,
+      "totalFilings": 342,
       "pmFilings": 9,
       "avgSalary": 183460,
       "state": "IL"
     },
     {
       "employer": "DFS Corporate Services LLC",
-      "totalFilings": 336,
+      "totalFilings": 338,
       "pmFilings": 3,
       "avgSalary": 143482,
       "state": "IL"
-    },
-    {
-      "employer": "T-Mobile USA, Inc.",
-      "totalFilings": 335,
-      "pmFilings": 26,
-      "avgSalary": 156314,
-      "state": "WA"
-    },
-    {
-      "employer": "Synechron Inc.",
-      "totalFilings": 334,
-      "pmFilings": 0,
-      "avgSalary": 0,
-      "state": "GA"
     },
     {
       "employer": "Fiserv Solutions, LLC",
@@ -568,32 +589,39 @@
       "state": "NJ"
     },
     {
-      "employer": "Rivian Automotive, LLC",
-      "totalFilings": 312,
-      "pmFilings": 13,
-      "avgSalary": 174436,
-      "state": "CA"
-    },
-    {
       "employer": "Lucid USA, Inc.",
-      "totalFilings": 309,
+      "totalFilings": 317,
       "pmFilings": 15,
       "avgSalary": 164283,
       "state": "CA"
     },
     {
       "employer": "HTC GLOBAL SERVICES INC.",
-      "totalFilings": 301,
+      "totalFilings": 304,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "LA"
     },
     {
       "employer": "Applied Materials, Inc.",
-      "totalFilings": 300,
+      "totalFilings": 301,
       "pmFilings": 2,
       "avgSalary": 179746,
       "state": "CA"
+    },
+    {
+      "employer": "Columbia University",
+      "totalFilings": 300,
+      "pmFilings": 0,
+      "avgSalary": 0,
+      "state": "NY"
+    },
+    {
+      "employer": "DIGITAL TECHNOLOGIES LLC",
+      "totalFilings": 300,
+      "pmFilings": 1,
+      "avgSalary": 77189,
+      "state": "NY"
     },
     {
       "employer": "Caremark LLC",
@@ -603,15 +631,36 @@
       "state": "TX"
     },
     {
+      "employer": "DATA SCIENCE TECHNOLOGIES LLC",
+      "totalFilings": 296,
+      "pmFilings": 2,
+      "avgSalary": 84646,
+      "state": "CA"
+    },
+    {
       "employer": "McKinsey & Company, Inc. United States",
-      "totalFilings": 292,
+      "totalFilings": 293,
       "pmFilings": 9,
       "avgSalary": 163078,
       "state": "GA"
     },
     {
+      "employer": "BlackRock Financial Management, Inc.",
+      "totalFilings": 291,
+      "pmFilings": 2,
+      "avgSalary": 148750,
+      "state": "DE"
+    },
+    {
+      "employer": "ROBOTICS TECHNOLOGIES LLC",
+      "totalFilings": 291,
+      "pmFilings": 1,
+      "avgSalary": 77189,
+      "state": "UT"
+    },
+    {
       "employer": "Bloomberg L.P.",
-      "totalFilings": 289,
+      "totalFilings": 290,
       "pmFilings": 3,
       "avgSalary": 119101,
       "state": "NY"
@@ -624,6 +673,13 @@
       "state": "CA"
     },
     {
+      "employer": "CitiusTech Inc.",
+      "totalFilings": 287,
+      "pmFilings": 1,
+      "avgSalary": 112000,
+      "state": "AZ"
+    },
+    {
       "employer": "CVS Pharmacy Inc.",
       "totalFilings": 285,
       "pmFilings": 0,
@@ -632,73 +688,17 @@
     },
     {
       "employer": "KPMG LLP",
-      "totalFilings": 282,
+      "totalFilings": 284,
       "pmFilings": 0,
       "avgSalary": 0,
       "state": "CA"
     },
     {
-      "employer": "Visa Technology & Operations LLC",
-      "totalFilings": 279,
-      "pmFilings": 11,
-      "avgSalary": 151672,
-      "state": "TX"
-    },
-    {
-      "employer": "Workday, Inc.",
-      "totalFilings": 277,
-      "pmFilings": 17,
-      "avgSalary": 149380,
-      "state": "OH"
-    },
-    {
-      "employer": "BlackRock Financial Management, Inc.",
-      "totalFilings": 275,
+      "employer": "University of Wisconsin System",
+      "totalFilings": 284,
       "pmFilings": 1,
-      "avgSalary": 102500,
-      "state": "DE"
-    },
-    {
-      "employer": "NTT DATA Americas, Inc.",
-      "totalFilings": 275,
-      "pmFilings": 2,
-      "avgSalary": 118654,
-      "state": "CA"
-    },
-    {
-      "employer": "ADP TECHNOLOGY SERVICES, INC.",
-      "totalFilings": 273,
-      "pmFilings": 7,
-      "avgSalary": 119918,
-      "state": "NJ"
-    },
-    {
-      "employer": "INNOVA SOLUTIONS, INC.",
-      "totalFilings": 268,
-      "pmFilings": 3,
-      "avgSalary": 110996,
-      "state": "GA"
-    },
-    {
-      "employer": "Mayo Clinic",
-      "totalFilings": 265,
-      "pmFilings": 3,
-      "avgSalary": 153007,
-      "state": "MN"
-    },
-    {
-      "employer": "People Tech Group, Inc.",
-      "totalFilings": 257,
-      "pmFilings": 3,
-      "avgSalary": 108098,
-      "state": "WA"
-    },
-    {
-      "employer": "ASML US, LLC",
-      "totalFilings": 254,
-      "pmFilings": 0,
-      "avgSalary": 0,
-      "state": "AZ"
+      "avgSalary": 87000,
+      "state": "WI"
     }
   ],
   "pmSalaries": [
@@ -708,6 +708,7 @@
       "salaryFrom": 564000,
       "salaryTo": 564000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -716,6 +717,7 @@
       "salaryFrom": 475000,
       "salaryTo": 475000,
       "city": "NEW YORK",
+      "state": "NY",
       "year": 2023
     },
     {
@@ -724,6 +726,7 @@
       "salaryFrom": 475000,
       "salaryTo": 475000,
       "city": "NEW YORK",
+      "state": "NY",
       "year": 2023
     },
     {
@@ -732,6 +735,7 @@
       "salaryFrom": 444000,
       "salaryTo": 444000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -740,6 +744,7 @@
       "salaryFrom": 384000,
       "salaryTo": 384000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -748,6 +753,7 @@
       "salaryFrom": 367200,
       "salaryTo": 367200,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2023
     },
     {
@@ -756,6 +762,7 @@
       "salaryFrom": 365000,
       "salaryTo": 365000,
       "city": "Jacksonville",
+      "state": "FL",
       "year": 2023
     },
     {
@@ -764,6 +771,7 @@
       "salaryFrom": 362340,
       "salaryTo": 362340,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -772,6 +780,7 @@
       "salaryFrom": 358176,
       "salaryTo": 358176,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -780,6 +789,7 @@
       "salaryFrom": 357000,
       "salaryTo": 357000,
       "city": "Union City",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -788,6 +798,7 @@
       "salaryFrom": 356475,
       "salaryTo": 356475,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -796,6 +807,7 @@
       "salaryFrom": 350690,
       "salaryTo": 350690,
       "city": "San Mateo",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -804,6 +816,7 @@
       "salaryFrom": 350000,
       "salaryTo": 350000,
       "city": "Santa Clara",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -812,6 +825,7 @@
       "salaryFrom": 350000,
       "salaryTo": 350000,
       "city": "Austin",
+      "state": "TX",
       "year": 2023
     },
     {
@@ -820,6 +834,7 @@
       "salaryFrom": 350000,
       "salaryTo": 350000,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -828,6 +843,7 @@
       "salaryFrom": 350000,
       "salaryTo": 350000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -836,6 +852,7 @@
       "salaryFrom": 350000,
       "salaryTo": 350000,
       "city": "Needham",
+      "state": "MA",
       "year": 2024
     },
     {
@@ -844,6 +861,7 @@
       "salaryFrom": 350000,
       "salaryTo": 350000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -852,6 +870,7 @@
       "salaryFrom": 340000,
       "salaryTo": 340000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -860,6 +879,7 @@
       "salaryFrom": 338170,
       "salaryTo": 338170,
       "city": "San Mateo",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -868,6 +888,7 @@
       "salaryFrom": 334000,
       "salaryTo": 334000,
       "city": "San Mateo",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -876,6 +897,7 @@
       "salaryFrom": 330000,
       "salaryTo": 330000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -884,6 +906,7 @@
       "salaryFrom": 330000,
       "salaryTo": 330000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -892,6 +915,7 @@
       "salaryFrom": 330000,
       "salaryTo": 330000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -900,6 +924,7 @@
       "salaryFrom": 325000,
       "salaryTo": 325000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -908,6 +933,7 @@
       "salaryFrom": 312040,
       "salaryTo": 312040,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -916,6 +942,7 @@
       "salaryFrom": 312000,
       "salaryTo": 312000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -924,6 +951,7 @@
       "salaryFrom": 310000,
       "salaryTo": 310000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -932,6 +960,7 @@
       "salaryFrom": 307197,
       "salaryTo": 307197,
       "city": "Palo Alto",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -940,6 +969,7 @@
       "salaryFrom": 305000,
       "salaryTo": 305000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -948,6 +978,7 @@
       "salaryFrom": 304456,
       "salaryTo": 304456,
       "city": "Palo Alto",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -956,6 +987,7 @@
       "salaryFrom": 300000,
       "salaryTo": 300000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -964,6 +996,7 @@
       "salaryFrom": 300000,
       "salaryTo": 300000,
       "city": "Redmond",
+      "state": "WA",
       "year": 2023
     },
     {
@@ -972,6 +1005,7 @@
       "salaryFrom": 300000,
       "salaryTo": 300000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -980,6 +1014,7 @@
       "salaryFrom": 300000,
       "salaryTo": 300000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -988,6 +1023,7 @@
       "salaryFrom": 300000,
       "salaryTo": 300000,
       "city": "Jersey City",
+      "state": "NJ",
       "year": 2024
     },
     {
@@ -996,6 +1032,7 @@
       "salaryFrom": 299936,
       "salaryTo": 299936,
       "city": "Pittsburgh",
+      "state": "PA",
       "year": 2024
     },
     {
@@ -1004,6 +1041,7 @@
       "salaryFrom": 296856,
       "salaryTo": 296856,
       "city": "Oakland",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1012,6 +1050,7 @@
       "salaryFrom": 296502,
       "salaryTo": 296502,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1020,6 +1059,7 @@
       "salaryFrom": 294299,
       "salaryTo": 294299,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1028,6 +1068,7 @@
       "salaryFrom": 294299,
       "salaryTo": 425000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1036,6 +1077,7 @@
       "salaryFrom": 294299,
       "salaryTo": 294299,
       "city": "Los Angeles",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1044,6 +1086,7 @@
       "salaryFrom": 294299,
       "salaryTo": 294299,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1052,6 +1095,7 @@
       "salaryFrom": 294299,
       "salaryTo": 356500,
       "city": "Santa Clara",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1060,6 +1104,7 @@
       "salaryFrom": 294299,
       "salaryTo": 294299,
       "city": "Los Gatos",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1068,6 +1113,7 @@
       "salaryFrom": 294000,
       "salaryTo": 294000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1076,6 +1122,7 @@
       "salaryFrom": 294000,
       "salaryTo": 294000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1084,6 +1131,7 @@
       "salaryFrom": 292464,
       "salaryTo": 292464,
       "city": "Sunnyvale",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1092,6 +1140,7 @@
       "salaryFrom": 292000,
       "salaryTo": 292000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1100,6 +1149,7 @@
       "salaryFrom": 291200,
       "salaryTo": 332800,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1108,6 +1158,7 @@
       "salaryFrom": 290585,
       "salaryTo": 290585,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1116,6 +1167,7 @@
       "salaryFrom": 290000,
       "salaryTo": 290000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1124,6 +1176,7 @@
       "salaryFrom": 290000,
       "salaryTo": 290000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1132,6 +1185,7 @@
       "salaryFrom": 290000,
       "salaryTo": 290000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1140,6 +1194,7 @@
       "salaryFrom": 290000,
       "salaryTo": 290000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1148,6 +1203,7 @@
       "salaryFrom": 289435,
       "salaryTo": 289435,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1156,6 +1212,7 @@
       "salaryFrom": 286000,
       "salaryTo": 286000,
       "city": "Sunnyvale",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1164,6 +1221,7 @@
       "salaryFrom": 285180,
       "salaryTo": 285180,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1172,6 +1230,7 @@
       "salaryFrom": 285000,
       "salaryTo": 285000,
       "city": "Saratoga",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1180,6 +1239,7 @@
       "salaryFrom": 284760,
       "salaryTo": 284760,
       "city": "Berkeley",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1188,6 +1248,7 @@
       "salaryFrom": 284750,
       "salaryTo": 385250,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1196,6 +1257,7 @@
       "salaryFrom": 284100,
       "salaryTo": 284100,
       "city": "Seattle",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1204,6 +1266,7 @@
       "salaryFrom": 283816,
       "salaryTo": 283816,
       "city": "Huntington Beach",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1212,6 +1275,7 @@
       "salaryFrom": 283442,
       "salaryTo": 283442,
       "city": "Los Gatos",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1220,6 +1284,7 @@
       "salaryFrom": 283431,
       "salaryTo": 283431,
       "city": "Chicago",
+      "state": "IL",
       "year": 2024
     },
     {
@@ -1228,6 +1293,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "Seattle",
+      "state": "WA",
       "year": 2023
     },
     {
@@ -1236,6 +1302,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1244,6 +1311,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1252,6 +1320,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1260,6 +1329,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1268,6 +1338,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1276,6 +1347,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -1284,6 +1356,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "Sunnyvale",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1292,6 +1365,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1300,6 +1374,7 @@
       "salaryFrom": 280000,
       "salaryTo": 280000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1308,6 +1383,7 @@
       "salaryFrom": 278855,
       "salaryTo": 278855,
       "city": "Sunnyvale",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1316,6 +1392,7 @@
       "salaryFrom": 278387,
       "salaryTo": 300000,
       "city": "South San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1324,6 +1401,7 @@
       "salaryFrom": 278387,
       "salaryTo": 330000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1332,6 +1410,7 @@
       "salaryFrom": 278320,
       "salaryTo": 278320,
       "city": "Burlingame",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1340,6 +1419,7 @@
       "salaryFrom": 276654,
       "salaryTo": 276654,
       "city": "Lynnwood",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1348,6 +1428,7 @@
       "salaryFrom": 276654,
       "salaryTo": 276654,
       "city": "Lynnwood",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1356,6 +1437,7 @@
       "salaryFrom": 275600,
       "salaryTo": 275600,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1364,6 +1446,7 @@
       "salaryFrom": 275300,
       "salaryTo": 275300,
       "city": "Cupertino",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1372,6 +1455,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1380,6 +1464,16 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Mountain View",
+      "state": "CA",
+      "year": 2024
+    },
+    {
+      "employer": "Chime Financial, Inc.",
+      "jobTitle": "Principal IT Product Manager",
+      "salaryFrom": 275000,
+      "salaryTo": 300000,
+      "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1388,6 +1482,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Seattle",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1396,6 +1491,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1404,6 +1500,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Culver City",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1412,6 +1509,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Palo Alto",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1420,6 +1518,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1428,6 +1527,7 @@
       "salaryFrom": 275000,
       "salaryTo": 275000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1436,6 +1536,7 @@
       "salaryFrom": 274596,
       "salaryTo": 274596,
       "city": "Sunnyvale",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1444,6 +1545,7 @@
       "salaryFrom": 274596,
       "salaryTo": 274596,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1452,6 +1554,7 @@
       "salaryFrom": 273915,
       "salaryTo": 273915,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1460,6 +1563,7 @@
       "salaryFrom": 273000,
       "salaryTo": 273000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1468,6 +1572,7 @@
       "salaryFrom": 272900,
       "salaryTo": 272900,
       "city": "New York",
+      "state": "NY",
       "year": 2023
     },
     {
@@ -1476,6 +1581,7 @@
       "salaryFrom": 270531,
       "salaryTo": 270531,
       "city": "Sunnyvale",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1484,6 +1590,7 @@
       "salaryFrom": 270380,
       "salaryTo": 270380,
       "city": "San Mateo",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1492,6 +1599,7 @@
       "salaryFrom": 270000,
       "salaryTo": 270000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1500,6 +1608,7 @@
       "salaryFrom": 270000,
       "salaryTo": 270000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1508,6 +1617,7 @@
       "salaryFrom": 269900,
       "salaryTo": 501300,
       "city": "Boston",
+      "state": "MA",
       "year": 2024
     },
     {
@@ -1516,6 +1626,7 @@
       "salaryFrom": 268000,
       "salaryTo": 268000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1524,6 +1635,7 @@
       "salaryFrom": 268000,
       "salaryTo": 268000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1532,7 +1644,17 @@
       "salaryFrom": 268000,
       "salaryTo": 268000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
+    },
+    {
+      "employer": "AINGEL CORP.",
+      "jobTitle": "Launch Executive Officer (Principal Product Manager)",
+      "salaryFrom": 266926,
+      "salaryTo": 270400,
+      "city": "San Jose",
+      "state": "CA",
+      "year": 2023
     },
     {
       "employer": "ByteDance Inc.",
@@ -1540,6 +1662,7 @@
       "salaryFrom": 266000,
       "salaryTo": 266000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1548,6 +1671,7 @@
       "salaryFrom": 265580,
       "salaryTo": 265580,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1556,6 +1680,7 @@
       "salaryFrom": 265000,
       "salaryTo": 265000,
       "city": "Seattle",
+      "state": "WA",
       "year": 2023
     },
     {
@@ -1564,6 +1689,7 @@
       "salaryFrom": 265000,
       "salaryTo": 265000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1572,6 +1698,7 @@
       "salaryFrom": 265000,
       "salaryTo": 265000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1580,6 +1707,7 @@
       "salaryFrom": 265000,
       "salaryTo": 265000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1588,6 +1716,7 @@
       "salaryFrom": 265000,
       "salaryTo": 265000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1596,6 +1725,7 @@
       "salaryFrom": 265000,
       "salaryTo": 265000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1604,6 +1734,7 @@
       "salaryFrom": 262822,
       "salaryTo": 262822,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1612,6 +1743,7 @@
       "salaryFrom": 261980,
       "salaryTo": 261980,
       "city": "Redmond",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1620,6 +1752,7 @@
       "salaryFrom": 260384,
       "salaryTo": 260384,
       "city": "Braintree",
+      "state": "MA",
       "year": 2024
     },
     {
@@ -1628,6 +1761,7 @@
       "salaryFrom": 260384,
       "salaryTo": 260384,
       "city": "Braintree",
+      "state": "MA",
       "year": 2024
     },
     {
@@ -1636,6 +1770,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "New York",
+      "state": "NY",
       "year": 2023
     },
     {
@@ -1644,6 +1779,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1652,6 +1788,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Santa Clara",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1660,6 +1797,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1668,6 +1806,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1676,6 +1815,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Palo Alto",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1684,6 +1824,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1692,6 +1833,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1700,6 +1842,7 @@
       "salaryFrom": 260000,
       "salaryTo": 280000,
       "city": "Santa Clara",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1708,6 +1851,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1716,6 +1860,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1724,6 +1869,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Santa Clara",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1732,6 +1878,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Chantilly",
+      "state": "VA",
       "year": 2024
     },
     {
@@ -1740,6 +1887,7 @@
       "salaryFrom": 260000,
       "salaryTo": 260000,
       "city": "Santa Clara",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1748,6 +1896,7 @@
       "salaryFrom": 259000,
       "salaryTo": 259000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1756,6 +1905,7 @@
       "salaryFrom": 258800,
       "salaryTo": 258800,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1764,6 +1914,7 @@
       "salaryFrom": 258455,
       "salaryTo": 278455,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1772,6 +1923,7 @@
       "salaryFrom": 258300,
       "salaryTo": 258300,
       "city": "Brooklyn",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -1780,6 +1932,7 @@
       "salaryFrom": 258107,
       "salaryTo": 258107,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -1788,6 +1941,7 @@
       "salaryFrom": 258100,
       "salaryTo": 258100,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1796,6 +1950,7 @@
       "salaryFrom": 258000,
       "salaryTo": 258000,
       "city": "Atlanta",
+      "state": "GA",
       "year": 2023
     },
     {
@@ -1804,6 +1959,7 @@
       "salaryFrom": 257640,
       "salaryTo": 257640,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1812,6 +1968,7 @@
       "salaryFrom": 257640,
       "salaryTo": 257640,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1820,6 +1977,7 @@
       "salaryFrom": 256650,
       "salaryTo": 276650,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1828,6 +1986,7 @@
       "salaryFrom": 256527,
       "salaryTo": 256527,
       "city": "Burlingame",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1836,6 +1995,7 @@
       "salaryFrom": 256068,
       "salaryTo": 256068,
       "city": "Oakland",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1844,6 +2004,7 @@
       "salaryFrom": 255445,
       "salaryTo": 300000,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1852,6 +2013,7 @@
       "salaryFrom": 255445,
       "salaryTo": 293762,
       "city": "Mountain View",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1860,6 +2022,7 @@
       "salaryFrom": 255000,
       "salaryTo": 255000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1868,6 +2031,7 @@
       "salaryFrom": 255000,
       "salaryTo": 285000,
       "city": "Kirkland",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1876,6 +2040,7 @@
       "salaryFrom": 255000,
       "salaryTo": 255000,
       "city": "Burlingame",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1884,6 +2049,7 @@
       "salaryFrom": 255000,
       "salaryTo": 295000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1892,6 +2058,7 @@
       "salaryFrom": 255000,
       "salaryTo": 255000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -1900,6 +2067,7 @@
       "salaryFrom": 255000,
       "salaryTo": 255000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1908,6 +2076,7 @@
       "salaryFrom": 254938,
       "salaryTo": 254938,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1916,6 +2085,7 @@
       "salaryFrom": 254832,
       "salaryTo": 254832,
       "city": "Burlingame",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1924,6 +2094,7 @@
       "salaryFrom": 254250,
       "salaryTo": 254250,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1932,6 +2103,7 @@
       "salaryFrom": 253864,
       "salaryTo": 330000,
       "city": "South San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1940,6 +2112,7 @@
       "salaryFrom": 253000,
       "salaryTo": 253000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1948,6 +2121,7 @@
       "salaryFrom": 253000,
       "salaryTo": 253000,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1956,7 +2130,17 @@
       "salaryFrom": 253000,
       "salaryTo": 253000,
       "city": "Seattle",
+      "state": "WA",
       "year": 2023
+    },
+    {
+      "employer": "Yelp Inc.",
+      "jobTitle": "Group Product Manager",
+      "salaryFrom": 253000,
+      "salaryTo": 253000,
+      "city": "San Francisco",
+      "state": "CA",
+      "year": 2024
     },
     {
       "employer": "Meta Platforms, Inc",
@@ -1964,6 +2148,7 @@
       "salaryFrom": 252735,
       "salaryTo": 252735,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1972,6 +2157,7 @@
       "salaryFrom": 252735,
       "salaryTo": 252735,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -1980,6 +2166,7 @@
       "salaryFrom": 252692,
       "salaryTo": 252692,
       "city": "San Ramon",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -1988,6 +2175,7 @@
       "salaryFrom": 252500,
       "salaryTo": 252500,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -1996,6 +2184,7 @@
       "salaryFrom": 252350,
       "salaryTo": 252350,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2004,6 +2193,7 @@
       "salaryFrom": 252000,
       "salaryTo": 252000,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2012,6 +2202,7 @@
       "salaryFrom": 252000,
       "salaryTo": 252000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2020,6 +2211,7 @@
       "salaryFrom": 251989,
       "salaryTo": 251989,
       "city": "Palo Alto",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2028,6 +2220,7 @@
       "salaryFrom": 251700,
       "salaryTo": 251700,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2036,6 +2229,7 @@
       "salaryFrom": 251700,
       "salaryTo": 251700,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2044,6 +2238,7 @@
       "salaryFrom": 251680,
       "salaryTo": 251680,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -2052,6 +2247,7 @@
       "salaryFrom": 251664,
       "salaryTo": 251664,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2060,6 +2256,7 @@
       "salaryFrom": 251576,
       "salaryTo": 251576,
       "city": "North Bend",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2068,6 +2265,7 @@
       "salaryFrom": 251576,
       "salaryTo": 299000,
       "city": "Seattle",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2076,6 +2274,7 @@
       "salaryFrom": 251000,
       "salaryTo": 251000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2084,6 +2283,7 @@
       "salaryFrom": 250789,
       "salaryTo": 250789,
       "city": "Seattle",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2092,6 +2292,7 @@
       "salaryFrom": 250369,
       "salaryTo": 250369,
       "city": "Dorchester",
+      "state": "MA",
       "year": 2023
     },
     {
@@ -2100,6 +2301,7 @@
       "salaryFrom": 250353,
       "salaryTo": 250353,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2108,6 +2310,7 @@
       "salaryFrom": 250346,
       "salaryTo": 250346,
       "city": "Menlo Park",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2116,6 +2319,7 @@
       "salaryFrom": 250344,
       "salaryTo": 250344,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -2124,6 +2328,7 @@
       "salaryFrom": 250289,
       "salaryTo": 250289,
       "city": "Bellevue",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2132,6 +2337,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "SAN FRANCISCO",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2140,6 +2346,16 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "Bellevue",
+      "state": "WA",
+      "year": 2023
+    },
+    {
+      "employer": "WPL, LLC",
+      "jobTitle": "IoT Technical Product Manager",
+      "salaryFrom": 250000,
+      "salaryTo": 250000,
+      "city": "Los Gatos",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2148,6 +2364,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "Roseland",
+      "state": "NJ",
       "year": 2023
     },
     {
@@ -2156,6 +2373,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2164,6 +2382,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2023
     },
     {
@@ -2172,6 +2391,7 @@
       "salaryFrom": 250000,
       "salaryTo": 265000,
       "city": "San Jose",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2180,6 +2400,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250100,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2188,6 +2409,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "Los Gatos",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2196,6 +2418,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "Los Gatos",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2204,6 +2427,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -2212,6 +2436,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2220,6 +2445,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -2228,6 +2454,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -2236,6 +2463,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "New York",
+      "state": "NY",
       "year": 2024
     },
     {
@@ -2244,6 +2472,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "Seattle",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2252,6 +2481,7 @@
       "salaryFrom": 250000,
       "salaryTo": 250000,
       "city": "Bothell",
+      "state": "WA",
       "year": 2024
     },
     {
@@ -2260,6 +2490,7 @@
       "salaryFrom": 250000,
       "salaryTo": 270000,
       "city": "San Francisco",
+      "state": "CA",
       "year": 2024
     },
     {
@@ -2268,53 +2499,22 @@
       "salaryFrom": 250000,
       "salaryTo": 270000,
       "city": "Danville",
-      "year": 2024
-    },
-    {
-      "employer": "Redis Inc.",
-      "jobTitle": "Senior Product Manager",
-      "salaryFrom": 250000,
-      "salaryTo": 250000,
-      "city": "San Francisco",
-      "year": 2024
-    },
-    {
-      "employer": "TikTok U.S. Data Security Inc.",
-      "jobTitle": "Strategy Product Manager - USDS",
-      "salaryFrom": 250000,
-      "salaryTo": 250000,
-      "city": "Bellevue",
-      "year": 2024
-    },
-    {
-      "employer": "Attentive Mobile, Inc.",
-      "jobTitle": "Lead Product Manager, AI Campaigns",
-      "salaryFrom": 250000,
-      "salaryTo": 250000,
-      "city": "San Francisco",
-      "year": 2024
-    },
-    {
-      "employer": "Medallia, Inc.",
-      "jobTitle": "Principal Technical Program Manager",
-      "salaryFrom": 250000,
-      "salaryTo": 250000,
-      "city": "Pleasanton",
+      "state": "CA",
       "year": 2024
     }
   ],
   "filingsByYear": [
     {
       "year": 2023,
-      "total": 115849,
-      "certified": 115849,
-      "denied": 0
+      "total": 127939,
+      "certified": 125231,
+      "denied": 543
     },
     {
       "year": 2024,
-      "total": 208911,
-      "certified": 208911,
-      "denied": 0
+      "total": 228311,
+      "certified": 223834,
+      "denied": 983
     }
   ],
   "metadata": {

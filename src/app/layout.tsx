@@ -13,9 +13,20 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Job Market Pulse - US Labor Market Dashboard",
+  title: "Job Market Pulse -- H-1B Visa Tracker & US Labor Market Dashboard",
   description:
-    "Interactive dashboard visualizing US labor market trends from 2021 to present using Federal Reserve (FRED) data. Track job openings, unemployment, hires, quits, and layoffs.",
+    "Track H-1B visa sponsors, PM salaries, approval trends, and US labor market indicators. Filter by US, California, or Bay Area. Built with FRED API, DOL, and USCIS data.",
+  metadataBase: new URL("https://pulse.harshit.ai"),
+  openGraph: {
+    title: "Job Market Pulse -- H-1B Visa Tracker & US Labor Market Dashboard",
+    description:
+      "Track H-1B visa sponsors, PM salaries, approval trends, and US labor market indicators. Filter by US, California, or Bay Area. Built with FRED API, DOL, and USCIS data.",
+    url: "https://pulse.harshit.ai",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

@@ -80,3 +80,19 @@ Entries are append-only. Never edit old entries.
 **Why:** "jobs.harshit.ai" sounds like a hiring page. "pulse" matches the product name (Job Market Pulse) and sounds like a data/analytics tool.
 **Rejected:** jobs.harshit.ai (implies Harshit is hiring), market.harshit.ai (too generic).
 
+
+### 2026-04-05
+
+### 2026-04-05 -- Dashboard as case study (no separate case study page)
+**Decision:** The dashboard itself will serve as the case study. Narrative editorial blocks woven between chart sections replace a separate /work/job-market-pulse page on harshit.ai. Homepage will have a project card linking directly to pulse.harshit.ai.
+**Why:** The dashboard IS the artifact -- chart design, data choices, geography toggle, and annotations demonstrate PM skills directly. A separate case study page would just describe what the user can already see. Saves 2-3 hours of build time.
+**Rejected:** Separate case study page on harshit.ai (redundant, the dashboard speaks for itself). No narrative at all (misses the chance to show PM thinking to recruiters who land on the page).
+
+
+### 2026-04-05
+
+### 2026-04-05 -- Favicon and OG metadata shipped
+**Decision:** Added cropped P pulse favicon (square, at src/app/favicon.ico) and OG image (1200x630 at public/og-image.png). Layout.tsx updated with full Open Graph, Twitter summary_large_image, and themeColor.
+**Why:** Social sharing previews on LinkedIn/Twitter need proper OG tags. Favicon gives brand identity in browser tabs.
+**Rejected:** Using a generic Next.js favicon (no brand identity). Skipping twitter card (misses Twitter/X share previews).
+

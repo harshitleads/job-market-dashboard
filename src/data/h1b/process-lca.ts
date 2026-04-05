@@ -99,7 +99,8 @@ for key in ['employer', 'caseStatus']:
 count = 0
 for row in ws.iter_rows(min_row=2, values_only=True):
     status = str(row[needed['caseStatus']] or '').strip().upper()
-    if status != 'CERTIFIED':
+    # Include all rows for filing counts, not just certified
+    if status not in ('CERTIFIED', 'DENIED', 'WITHDRAWN', 'CERTIFIED - WITHDRAWN'):
         continue
 
     def g(key, fallback=None):
@@ -124,13 +125,13 @@ for row in ws.iter_rows(min_row=2, values_only=True):
         'wageUnit': g('wageUnit', 'pwUnit'),
         'city': g('city', 'employerCity'),
         'state': g('state', 'employerState'),
-        'caseStatus': 'Certified',
+        'caseStatus': status,
         'decisionDate': g('decisionDate'),
     }
     print(json.dumps(obj))
     count += 1
 
-sys.stderr.write(f'{count} certified rows\\n')
+sys.stderr.write(f'{count} rows (all statuses)\\n')
 wb.close()
 `;
 
@@ -243,22 +244,26 @@ function main() {
 
   console.log(`Processing ${uniqueFiles.length} LCA file(s)...`);
 
-  const allRows: RawRow[] = [];
+  let allRows: RawRow[] = [];
   for (const file of uniqueFiles) {
     console.log(`\n  Reading ${file}...`);
     const rows = extractFromXLSX(join(RAW_DIR, file));
-    console.log(`  ${rows.length} certified rows extracted`);
-    allRows.push(...rows);
+    console.log(`  ${rows.length} rows extracted`);
+    allRows = allRows.concat(rows);
   }
 
-  console.log(`\nTotal certified rows: ${allRows.length}`);
+  const certifiedRows = allRows.filter(
+    (r) => r.caseStatus === "CERTIFIED" || r.caseStatus === "CERTIFIED - WITHDRAWN"
+  );
+  const deniedRows = allRows.filter((r) => r.caseStatus === "DENIED");
+  console.log(`\nTotal rows: ${allRows.length} (${certifiedRows.length} certified, ${deniedRows.length} denied, ${allRows.length - certifiedRows.length - deniedRows.length} withdrawn)`);
 
-  // Aggregate top sponsors
+  // Aggregate top sponsors (certified only for sponsor rankings)
   const employerMap = new Map<
     string,
     { total: number; pm: number; wages: number[]; state: string; name: string }
   >();
-  for (const row of allRows) {
+  for (const row of certifiedRows) {
     if (!row.employer) continue;
     const key = normalizeEmployer(row.employer);
     const existing = employerMap.get(key) ?? {
@@ -292,8 +297,8 @@ function main() {
       state: e.state,
     }));
 
-  // PM salary data -- filter out obviously bad wages (>$800K annual is likely a data error)
-  const pmRows = allRows
+  // PM salary data -- certified only, filter out bad wages
+  const pmRows = certifiedRows
     .filter((r) => isPMRole(r.jobTitle) && r.wageFrom > 30000 && r.wageFrom < 800000)
     .sort((a, b) => b.wageFrom - a.wageFrom)
     .slice(0, 200);
@@ -311,11 +316,12 @@ function main() {
       salaryFrom: Math.round(r.wageFrom),
       salaryTo: Math.round(r.wageTo),
       city: r.city,
+      state: r.state,
       year,
     };
   });
 
-  // Filings by year
+  // Filings by year -- count all statuses
   const yearMap = new Map<number, { total: number; certified: number; denied: number }>();
   for (const row of allRows) {
     let year = new Date().getFullYear();
@@ -325,7 +331,11 @@ function main() {
     }
     const existing = yearMap.get(year) ?? { total: 0, certified: 0, denied: 0 };
     existing.total++;
-    existing.certified++;
+    if (row.caseStatus === "CERTIFIED" || row.caseStatus === "CERTIFIED - WITHDRAWN") {
+      existing.certified++;
+    } else if (row.caseStatus === "DENIED") {
+      existing.denied++;
+    }
     yearMap.set(year, existing);
   }
   const filingsByYear = Array.from(yearMap.entries())

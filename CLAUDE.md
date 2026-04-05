@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 ## Vision and Mission
-A data dashboard for job seekers -- especially international students -- that combines US labor market trends with H-1B visa sponsorship data. Two main views: an H-1B Tracker (top sponsors, PM-role salaries, approval trends, company lookup) and a Labor Market overview (US/California/Bay Area macro indicators). Built with FRED API + DOL/USCIS public disclosure data. Portfolio piece demonstrating data visualization, analytics thinking, and dashboard design.
+A data dashboard for job seekers -- especially international students -- that combines US labor market trends with H-1B visa sponsorship data. Two main views: an H-1B Tracker (top sponsors, PM-role salaries, approval trends, company lookup) and a Labor Market overview (US/California/Bay Area macro indicators). Built with FRED API + DOL/USCIS public disclosure data. The dashboard itself serves as the case study -- no separate case study page on harshit.ai.
 
 ## Current Stack
 - Framework: Next.js 16 (App Router), TypeScript, Tailwind CSS v4
@@ -14,14 +14,14 @@ A data dashboard for job seekers -- especially international students -- that co
 - Deployment: Vercel (free tier)
 - Repo: harshitleads/job-market-dashboard
 - Domain: pulse.harshit.ai
-- Production URL: https://job-market-dashboard-eight.vercel.app
+- Production URL: https://pulse.harshit.ai
 
 ## Architecture
 ```
 src/
   app/
     page.tsx                    -- Client component with tab navigation (H-1B default)
-    layout.tsx                  -- Root layout, dark theme, Inter + JetBrains Mono
+    layout.tsx                  -- Root layout, dark theme, Inter + JetBrains Mono, OG metadata
     api/fred/route.ts           -- FRED API route with 24h file cache
     api/h1b/route.ts            -- Serves processed H-1B JSON (sponsors/salaries/approvals/employers/lookup)
   components/
@@ -49,14 +49,17 @@ src/
     cache.ts                    -- File-based cache (24h TTL) in /tmp
     constants.ts                -- Series IDs, colors, events, GEOGRAPHY_SERIES, BAY_AREA_CITIES, PM_TITLE_KEYWORDS
     mock-data.ts                -- Fallback data when no FRED key
-    h1b-data.ts                 -- Typed loader for processed H-1B JSON with geography filtering + company lookup
+    h1b-data.ts                 -- Typed loader with geography filtering + company lookup
   data/
     h1b/
-      lca-processed.json        -- Processed DOL LCA data (real data, 54KB)
-      uscis-processed.json      -- Processed USCIS data (real data, 18KB)
+      lca-processed.json        -- Processed DOL LCA data (real data)
+      uscis-processed.json      -- Processed USCIS data (real data)
       process-lca.ts            -- Script to convert raw LCA XLSX -> filtered JSON
       process-uscis.ts          -- Script to convert raw USCIS CSV -> filtered JSON
       raw/                      -- Raw data files (gitignored)
+  public/
+    favicon.png                 -- Green P pulse logo
+    og-image.png                -- 1200x630 social preview image
 ```
 
 ## Design System
@@ -87,11 +90,12 @@ src/
 - Processing scripts: process-lca.ts and process-uscis.ts (run with npx tsx)
 - Output: lca-processed.json and uscis-processed.json (committed, small)
 - Processed 324K certified LCA rows and 275K USCIS rows
-- DOL LCA fields used: EMPLOYER_NAME, JOB_TITLE, SOC_CODE, WAGE_RATE_OF_PAY_FROM/TO, WORKSITE_CITY/STATE, CASE_STATUS
-- PM roles filtered by: "Product Manager", "Product Analyst", "Program Manager", "Technical Program Manager", "Product Owner"
+- DOL LCA fields: EMPLOYER_NAME, JOB_TITLE, SOC_CODE, WAGE_RATE_OF_PAY_FROM/TO, WORKSITE_CITY/STATE, CASE_STATUS
+- PM roles: "Product Manager", "Product Analyst", "Program Manager", "Technical Program Manager", "Product Owner"
 - Bay Area cities: San Francisco, San Jose, Mountain View, Palo Alto, Sunnyvale, Menlo Park, Cupertino, Redwood City, Santa Clara, Oakland, Berkeley, Fremont
 - Employer name normalization: uppercase, strip LLC/INC/CORP/CO
 - Wage sanity checks: $500/hr cap before hourly-to-annual, $800K annual cap for PM data
+- filingsByYear includes certified + denied + withdrawn counts
 
 ## Key Event Annotations
 - Mar 2022: Peak job openings (~12M)
@@ -119,12 +123,14 @@ When you make or execute a product or technical decision, append it to `docs/dec
 ```
 
 ## Pending Work
-- Configure pulse.harshit.ai subdomain (CNAME + Vercel domain)
-- Add case study page on harshit.ai
-- Post-MVP: date range picker, export chart as PNG, weekly jobless claims chart, Layoffs.fyi overlay
+- Add favicon and OG metadata to layout.tsx (files in public/)
+- Add homepage project card on harshit.ai linking to pulse.harshit.ai
+- Post-MVP: date range picker, export chart as PNG, weekly jobless claims chart, Layoffs.fyi overlay, narrative editorial blocks between chart sections
 
 ## Completed Work
 - 2026-04-05: Phase 1 -- Next.js scaffold, FRED API integration, 5 KPI cards, 2 charts, dark theme, mock data fallback
-- 2026-04-05: Phase 2 -- Tab navigation (H-1B Tracker default | Labor Market), geography toggle (US/CA/Bay Area), H-1B data pipeline (processing scripts + sample JSON), H-1B dashboard UI (sponsors table, salary chart, approval trends, company lookup), updated sources footer, mobile responsive
+- 2026-04-05: Phase 2 -- Tab navigation (H-1B Tracker default | Labor Market), geography toggle (US/CA/Bay Area), H-1B data pipeline, H-1B dashboard UI (sponsors table, salary chart, approval trends, company lookup), mobile responsive
 - 2026-04-05: H-1B data processing -- 324K LCA rows + 275K USCIS rows processed to JSON with wage sanity checks
-- 2026-04-05: Deployed to Vercel (https://job-market-dashboard-eight.vercel.app), FRED_API_KEY set in env vars
+- 2026-04-05: Deployed to Vercel, FRED_API_KEY set, pulse.harshit.ai live
+- 2026-04-05: Bug fixes -- PM salary geography filter (added state field), filings denied counts, Bay Area sponsor fallback to CA
+- 2026-04-05: Favicon (green P pulse) and OG image (1200x630) generated
