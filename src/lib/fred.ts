@@ -3,6 +3,56 @@ export interface FredObservation {
   value: number;
 }
 
+/**
+ * Fill gaps in monthly time series by linear interpolation.
+ * If Sep=4.4 and Nov=4.5 with Oct missing, inserts Oct=4.45.
+ */
+export function fillGaps(data: FredObservation[]): FredObservation[] {
+  if (data.length < 2) return data;
+
+  const sorted = [...data].sort(
+    (a, b) => a.date.localeCompare(b.date)
+  );
+
+  const result: FredObservation[] = [sorted[0]];
+
+  for (let i = 1; i < sorted.length; i++) {
+    const prev = sorted[i - 1];
+    const curr = sorted[i];
+
+    // Parse YYYY-MM-DD as integers to avoid timezone issues
+    const [prevY, prevM] = prev.date.split("-").map(Number);
+    const [currY, currM] = curr.date.split("-").map(Number);
+
+    // Walk month-by-month from prev to curr, collecting gaps
+    let y = prevY;
+    let m = prevM;
+    const gaps: string[] = [];
+
+    while (true) {
+      m++;
+      if (m > 12) { m = 1; y++; }
+      if (y > currY || (y === currY && m >= currM)) break;
+      gaps.push(`${y}-${String(m).padStart(2, "0")}-01`);
+    }
+
+    // Interpolate each gap
+    const totalSteps = gaps.length + 1;
+    for (let g = 0; g < gaps.length; g++) {
+      const t = (g + 1) / totalSteps;
+      const interpolated = prev.value + (curr.value - prev.value) * t;
+      result.push({
+        date: gaps[g],
+        value: Math.round(interpolated * 100) / 100,
+      });
+    }
+
+    result.push(curr);
+  }
+
+  return result;
+}
+
 const FRED_BASE_URL =
   "https://api.stlouisfed.org/fred/series/observations";
 

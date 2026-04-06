@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { fetchSeries } from "@/lib/fred";
+import { fetchSeries, fillGaps } from "@/lib/fred";
 import { getCached, setCached } from "@/lib/cache";
 import { MOCK_DATA } from "@/lib/mock-data";
 import snapshotData from "@/data/fred-snapshot.json";
@@ -49,6 +49,11 @@ export async function GET(request: NextRequest) {
       // Fall back to committed snapshot, then mock
       result[id] = snapshot[id] ?? MOCK_DATA[id] ?? [];
     }
+  }
+
+  // Fill any gaps in all series before returning
+  for (const id of Object.keys(result)) {
+    result[id] = fillGaps(result[id]);
   }
 
   return NextResponse.json(result, {

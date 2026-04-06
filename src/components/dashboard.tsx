@@ -353,7 +353,8 @@ function CaliforniaView({
 
       <p className="mt-6 text-center text-sm text-[#94a3b8]">
         Some indicators (JOLTS openings, hires, quits, layoffs) are only
-        available at the national level.
+        available at the national level. State data typically lags national
+        data by 1-2 months.
       </p>
     </>
   );
@@ -402,7 +403,8 @@ function BayAreaView({
 
       <p className="mt-6 text-center text-sm text-[#94a3b8]">
         Some indicators (JOLTS openings, hires, quits, layoffs) are only
-        available at the national level.
+        available at the national level. Metro data typically lags national
+        data by 1-2 months.
       </p>
     </>
   );
