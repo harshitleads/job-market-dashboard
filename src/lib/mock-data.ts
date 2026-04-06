@@ -83,7 +83,7 @@ export const MOCK_DATA: Record<string, FredObservation[]> = {
   UNRATE: toObservations(unemploymentValues),
   JTSHIL: toObservations(hiresValues),
   JTSQUL: toObservations(quitsValues),
-  JTSLLL: toObservations(layoffsValues),
+  JTSLDL: toObservations(layoffsValues),
   JTSTSL: toObservations(separationsValues),
   // California
   CAUR: toObservations(caUnemploymentValues),

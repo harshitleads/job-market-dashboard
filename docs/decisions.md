@@ -133,3 +133,16 @@ Entries are append-only. Never edit old entries.
 **Why:** Previous sort by highest salary surfaced obscure companies with 1 outlier filing. Sorting by filings shows companies that actually hire PMs at scale (Amazon, Google, Meta, ByteDance). Sort toggle lets users explore both views. Name cleanup removes artifacts from LCA data normalization.
 **Rejected:** Removing salary sort entirely (users may want to see highest-paying companies). Showing all companies regardless of filing count (1-filing companies aren't meaningful signal).
 
+
+### 2026-04-06
+
+### 2026-04-05 -- FRED API blocked from Vercel: static snapshot solution
+**Decision:** FRED's API rejects our API key from Vercel's data center IPs (returns 400 "api_key not registered"). Implemented a committed static snapshot (src/data/fred-snapshot.json) as primary data source, with three-tier fallback: file cache -> live FRED API -> snapshot -> mock data. Snapshot is fetched locally where the API key works, committed to repo.
+**Why:** The FRED API works from localhost and browsers but not from Vercel serverless. This is a FRED infrastructure limitation we can't control. Monthly snapshot refresh is acceptable since FRED data updates monthly anyway.
+**Rejected:** Using a different API key (same key works from browser, issue is IP-based). Proxying through a different server (adds complexity and cost). Removing FRED integration entirely (loses the real-time data story).
+
+### 2026-04-05 -- Fixed layoffs series: JTSLLL -> JTSLDL
+**Decision:** Changed layoffs series ID from JTSLLL (doesn't exist) to JTSLDL (Layoffs and Discharges: Total Nonfarm). Updated in constants.ts and mock-data.ts.
+**Why:** JTSLLL was returning empty data. JTSLDL is the correct FRED series ID for layoffs and discharges.
+**Rejected:** N/A -- was a bug, not a design decision.
+

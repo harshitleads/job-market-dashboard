@@ -3,7 +3,7 @@ export const FRED_SERIES = {
   unemployment: "UNRATE",
   hires: "JTSHIL",
   quits: "JTSQUL",
-  layoffs: "JTSLLL",
+  layoffs: "JTSLDL",
   separations: "JTSTSL",
 } as const;
 
@@ -52,7 +52,7 @@ export const SERIES_LABELS: Record<string, string> = {
   UNRATE: "Unemployment Rate",
   JTSHIL: "Hires",
   JTSQUL: "Quits",
-  JTSLLL: "Layoffs",
+  JTSLDL: "Layoffs",
   JTSTSL: "Separations",
   CAUR: "CA Unemployment Rate",
   CANA: "CA Nonfarm Payrolls",
@@ -67,7 +67,7 @@ export const GEOGRAPHY_SERIES = {
     openings: "JTSJOL",
     hires: "JTSHIL",
     quits: "JTSQUL",
-    layoffs: "JTSLLL",
+    layoffs: "JTSLDL",
   },
   california: {
     unemployment: "CAUR",
