@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Market Pulse
 
-## Getting Started
+**The labor market, visualized.**
 
-First, run the development server:
+US labor market trends and H-1B visa sponsorship data in one clean dashboard. Four government data sources, refreshed daily, designed for job seekers, founders, and PMs who need answers without navigating government PDFs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Live:** [pulse.harshit.ai](https://pulse.harshit.ai) | **Case study:** [harshit.ai/work/job-market-pulse](https://harshit.ai/work/job-market-pulse)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What it does
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Labor Market tab:** Job openings, unemployment rate, monthly hires, quits rate, and layoffs from 2021 to present. Dual-axis chart showing job openings vs unemployment with annotated key events (COVID recovery, Great Resignation, tech layoff wave). Geographic filters for US, California, and Bay Area.
 
-## Learn More
+**H-1B Tracker tab:** Company lookup with full filing history. Top 100 H-1B sponsors ranked by total LCA filings with PM-specific breakdowns. PM role salary ranges by company. H-1B approval trends by fiscal year (FY2020-FY2026 Q1).
 
-To learn more about Next.js, take a look at the following resources:
+## Data sources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **FRED API** (Federal Reserve Economic Data): Job openings, unemployment, hires, quits, layoffs. Monthly, seasonally adjusted.
+- - **DOL OFLC** (Department of Labor): Labor Condition Application disclosure data. Every H-1B filing with job title, salary, employer. FY2022-FY2025.
+  - - **USCIS** (H-1B Employer Data Hub): Approval and denial counts by employer. FY2020-FY2026 Q1.
+    - - **BLS JOLTS** (Bureau of Labor Statistics): Source survey behind FRED labor data. 21,000 establishments monthly.
+     
+      - ## Design decisions
+     
+      - **One chart, one story.** Every chart answers exactly one question. No multi-purpose charts requiring a legend to decode.
+     
+      - **Annotations over legends.** Key moments labeled directly on charts: peak job openings (~12M, Feb 2022), ChatGPT launch + tech layoff wave (Oct 2022), Meta/Google/Amazon mass layoffs (Dec 2022).
+     
+      - **H-1B as a first-class tab.** For international students and workers, sponsorship data is the most personally relevant labor market data. Not a footnote.
+     
+      - **Daily refresh.** FRED data fetched every 24 hours. Fetch Latest button for manual refresh with loading state.
+     
+      - ## Stack
+     
+      - - Frontend: Next.js, TypeScript, Tailwind CSS, Recharts
+        - - Data: FRED API, DOL OFLC CSV, USCIS H-1B Employer Data Hub
+          - - Deployment: Vercel
+           
+            - ---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+            Built by [Harshit Sharma](https://harshit.ai).
