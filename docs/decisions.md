@@ -154,3 +154,16 @@ Entries are append-only. Never edit old entries.
 **Why:** Confirms the three-tier fallback (cache -> live API -> snapshot -> mock) is working. FRED API key is rejected from Vercel IPs so snapshot is the primary source. Monthly local refresh is the maintenance model.
 **Rejected:** N/A -- verification step.
 
+
+### 2026-04-06
+
+### 2026-04-05 -- Gap interpolation for missing FRED data points
+**Decision:** Added fillGaps() function in fred.ts that detects missing months in time series and linearly interpolates values. Oct 2025 UNRATE was missing in FRED (returns "."), now interpolated at 4.45%. Applied to all series before serving.
+**Why:** Missing data points cause visible breaks in line charts that look like bugs to users. Linear interpolation for a single missing month is reasonable and accurate enough for a dashboard.
+**Rejected:** Leaving gaps visible (looks broken). Forward-filling previous value (less accurate than interpolation). Hiding the interpolated point (users should see continuous trends).
+
+### 2026-04-05 -- State/metro data lag notes
+**Decision:** Added "State data typically lags national data by 1-2 months" to California view and "Metro data typically lags national data by 1-2 months" to Bay Area view.
+**Why:** CA data goes through Dec 2025 while national goes through Mar 2026. Users need to understand this is a BLS publication schedule issue, not a dashboard bug.
+**Rejected:** Hiding CA/Bay Area views until they catch up (loses the geography feature). Showing national data as a proxy (dishonest).
+
