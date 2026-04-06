@@ -146,3 +146,11 @@ Entries are append-only. Never edit old entries.
 **Why:** JTSLLL was returning empty data. JTSLDL is the correct FRED series ID for layoffs and discharges.
 **Rejected:** N/A -- was a bug, not a design decision.
 
+
+### 2026-04-06
+
+### 2026-04-05 -- Data freshness confirmed: Mar 2026 on production
+**Decision:** Verified production at pulse.harshit.ai returns 62 UNRATE data points through Mar 2026 (4.3%), CAUR through Dec 2025 (5.5%), SANF806URN through Dec 2025 (4.1%). Static snapshot solution working correctly. Added "Data as of" label, "Fetch Latest" button, and data period labels to both tabs.
+**Why:** Confirms the three-tier fallback (cache -> live API -> snapshot -> mock) is working. FRED API key is rejected from Vercel IPs so snapshot is the primary source. Monthly local refresh is the maintenance model.
+**Rejected:** N/A -- verification step.
+
