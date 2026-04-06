@@ -6,8 +6,8 @@ interface TabNavProps {
 }
 
 const TABS = [
-  { id: "h1b", label: "H-1B Tracker" },
   { id: "labor", label: "Labor Market" },
+  { id: "h1b", label: "H-1B Tracker" },
 ];
 
 export function TabNav({ activeTab, onTabChange }: TabNavProps) {

@@ -7,7 +7,7 @@ import { H1bDashboard } from "@/components/h1b-dashboard";
 import type { Geography } from "@/components/geography-toggle";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState("h1b");
+  const [activeTab, setActiveTab] = useState("labor");
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

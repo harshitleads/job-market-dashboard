@@ -167,3 +167,11 @@ Entries are append-only. Never edit old entries.
 **Why:** CA data goes through Dec 2025 while national goes through Mar 2026. Users need to understand this is a BLS publication schedule issue, not a dashboard bug.
 **Rejected:** Hiding CA/Bay Area views until they catch up (loses the geography feature). Showing national data as a proxy (dishonest).
 
+
+### 2026-04-06
+
+### 2026-04-05 -- Default tab changed: Labor Market first
+**Decision:** Changed the default landing tab from H-1B Tracker to Labor Market. The labor market charts (dual-axis lines, area charts, event annotations) are more visually compelling and make a stronger first impression.
+**Why:** The charts tell a story at a glance and demonstrate data visualization skills immediately. The H-1B table view requires reading — less impactful as a landing view. Recruiters see the analytics capability first, then can explore H-1B data.
+**Rejected:** Keeping H-1B as default (tables are less visually engaging as a first impression). Removing tabs entirely (both views add value for different audiences).
+
