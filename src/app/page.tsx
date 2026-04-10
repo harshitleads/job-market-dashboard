@@ -5,6 +5,7 @@ import { TabNav } from "@/components/tab-nav";
 import { Dashboard } from "@/components/dashboard";
 import { H1bDashboard } from "@/components/h1b-dashboard";
 import type { Geography } from "@/components/geography-toggle";
+import CaseStudyBubble from "@/components/case-study-bubble";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("labor");
@@ -28,6 +29,8 @@ export default function Home() {
 
       {/* Tab Content */}
       {activeTab === "h1b" ? <H1bDashboard /> : <Dashboard />}
+
+      <CaseStudyBubble />
     </main>
   );
 }
