@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import { fetchSeries, fillGaps } from "@/lib/fred";
-import { getCached, setCached } from "@/lib/cache";
 import { MOCK_DATA } from "@/lib/mock-data";
 import snapshotData from "@/data/fred-snapshot.json";
 import type { FredObservation } from "@/lib/fred";
@@ -17,7 +16,6 @@ export async function GET(request: NextRequest) {
   }
 
   const seriesIds = seriesParam.split(",").map((s) => s.trim());
-  const bustCache = request.nextUrl.searchParams.get("bust") === "true";
   const result: Record<string, FredObservation[]> = {};
 
   const apiKey = process.env.FRED_API_KEY;
@@ -29,20 +27,10 @@ export async function GET(request: NextRequest) {
       continue;
     }
 
-    // Try file cache first (unless busting)
-    if (!bustCache) {
-      const cached = await getCached<FredObservation[]>(`fred_${id}`);
-      if (cached) {
-        result[id] = cached;
-        continue;
-      }
-    }
-
-    // Try live FRED API
+    // Call the live FRED API directly. The committed snapshot is only a
+    // fallback for when the API call itself fails, never the default.
     try {
-      const data = await fetchSeries(id);
-      await setCached(`fred_${id}`, data);
-      result[id] = data;
+      result[id] = await fetchSeries(id);
     } catch (err) {
       const errMsg = err instanceof Error ? err.message : String(err);
       console.error(`[FRED] ${id}: ${errMsg}`);
